@@ -1,0 +1,200 @@
+/***************** Geral *****************/
+
+* {
+	margin:0;
+}
+
+body{
+	background-image:url(img/bg_topo.jpg);
+	_background-image:url(img/bg_topo2.jpg);
+	background-repeat:repeat-x;
+	text-align:center;
+	margin:0;
+	}
+
+body, td, th, p, div {
+	font-size:11px;
+	line-height:20px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	}
+
+img{
+	border:0;
+	}
+	
+/***************** Divs *****************/
+
+#geral{
+	text-align:center;
+	margin:auto;
+	width:780px;
+	}
+
+#header_prefeitura {
+	text-align:center;
+	}
+
+#tarja_laranja {
+	text-align:left;
+	padding:6px 10px 0 10px;
+	margin-bottom:10px;
+	}
+
+#tarja_laranja h1{
+	color:#FFFFFF;
+	font-size:16px;
+	letter-spacing:-1px;
+	}
+
+#tarja_botao_acesso{
+	background:#FF6600;
+	padding:2px;
+	margin-top:1px;
+	}
+
+#quadro_iniciar_pesquisa{
+	padding:10px 5px 10px 15px;
+	}
+
+#quadro_pesquisas_frequentes{
+	padding:10px 5px 10px 15px;
+	}
+	
+#coluna_pesquisas{
+	padding:20px 10px 10px 10px;
+	}
+	
+#coluna_conteudo{
+	padding:10px;
+	background-color:#DDD;
+	text-align:left;
+	}
+
+#animacao{
+	margin:0 auto;
+	width:100%;
+	}
+	
+#apresentacao{
+	padding:12px 15px 10px 15px;
+	}
+
+#conteudo{
+	padding:20px;
+	text-align:justify;
+	background:#EFEFEF;
+	display:table;
+	width:737px;
+	color:#333333;
+	}
+
+#home{
+	padding:20px;
+	text-align:justify;
+	background:#EFEFEF;
+	display:table;
+	width:737px;
+	}
+	
+#conteudo h1{
+	font-size:30px;
+	color:#00;
+	}
+	
+#quadro-foto-texto{
+	width:200px;
+	background:#FFFFFF;
+	padding:7px;
+	float:left;
+	margin-right:15px;
+	border:solid 1px #CCCCCC;
+	text-align:left;
+	}
+
+#quadro-foto{
+	width:200px;
+	background:#FFFFFF;
+	padding:7px;
+	margin-right:15px;
+	border:solid 1px #CCCCCC;
+	text-align:left;
+	}
+
+#assinatura{
+	text-align:center;
+	font-size:10px;
+	background-color:#000000;
+	border-top:#FF6600 solid 3px;
+	margin-top:1px;
+	width:100%;
+	}
+
+#assinatura td div{
+	color:#FFFFFF;
+	}	
+
+#assinatura a:link, #tarja_laranja a:link {
+	color: #FFFFFF;
+	text-decoration:underline;
+}
+
+#assinatura a:visited, #tarja_laranja a:visited  {
+	color: #FFFFFF;
+	text-decoration:underline;
+}
+
+#assinatura a:hover, #tarja_laranja a:hover {
+	color: #EFEFEF;
+	text-decoration:underline;
+	}
+
+
+	
+/***************** Estilos *****************/
+
+.semestilo {
+	text-decoration:none;
+	}
+
+h1{
+	color:#00;
+	font-size:25px;
+	letter-spacing:-1px;
+	}
+
+h2{
+	font-size:18px;
+	color:#00;
+	}
+	
+h3{
+	font-size:15px;
+	}
+
+h4{
+	font-size:13px;
+	}
+
+a:link {
+	color: #666666;
+	text-decoration:underline;
+}
+
+a:visited {
+	color: #666666;
+	text-decoration:underline;
+}
+a:hover {
+	color: #FF6500;
+	text-decoration:underline;
+	}
+
+#btop_cgesp, #cge, #cge1, #cge2, #cge3, #sp_agora {
+	height: 20px !important;
+	padding: 0px !important;
+}
+
+#footer {
+	background-position:center !important;
+	width:100% !important;
+}
