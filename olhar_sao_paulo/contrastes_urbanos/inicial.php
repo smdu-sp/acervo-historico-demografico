@@ -22,7 +22,7 @@
             mais
             expostos à situação de pobreza ou de vulnerabilidade social. As relações que se estabelecem entre o
             território,
-            sua infraestrutura e os temas da cidadania – violência e distribuição espacial das oportunidades econômicas
+            sua infra-estrutura e os temas da cidadania – violência e distribuição espacial das oportunidades econômicas
             –
             também são objeto deste trabalho, já que o modo pelo qual o espaço construído está estruturado em São Paulo
             tende
