@@ -36,7 +36,7 @@
     </div>
     <div id="menu">
       <ul>
-        <li><a href="" class="menu_atual menu_e" data-url="inicial.php">Apresenta&ccedil;&atilde;o</a></li>
+        <li><a href="" class="menu_e" data-url="inicial.php">Apresenta&ccedil;&atilde;o</a></li>
         <li><a href="" class="menu_e" data-url="equipe.php">Equipe t&eacute;cnica</a></li>
         <li><a href="" class="menu_e" data-url="politica.php">Pol&iacute;tico Administrativo</a></li>
         <li><a href="" class="menu_e" data-url="solo.php">Maciços de Solo e Rocha</a></li>
