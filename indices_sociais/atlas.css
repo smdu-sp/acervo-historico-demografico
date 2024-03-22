@@ -1,0 +1,118 @@
+/* ----- DOCUMENTO GERAL ----- */
+body {margin-left: 0px;margin-top: 5px;margin-right: 0px;	margin-bottom: 0px;	text-align: center;}
+form{margin:0px;padding:0px}
+a:link,a:visited{font-family:Verdana,Arial,sans-serif;text-decoration:none}
+a:hover{font-family:Verdana,Arial,sans-serif;text-decoration:underline}
+a{font-family:Verdana,Arial,sans-serif;font-size:11px}
+img{border:none}
+td {font-family:Verdana, Arial, Helvetica, sans-serif;font-size:11px}
+
+#corpo {display:block;background-color:#ffffff;font-family:Verdana, Arial, Helvetica, sans-serif;font-size: 10px;margin-left:5px;width:760px}
+.td1 {background-color:#FFFFFF;text-align:center;padding:0}
+.td2 {background-color:#C2D6EB;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:10px;padding:0}
+.td3 {background-color:#FFFFFF;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:10px;font-weight:bold;padding:0}
+
+
+.a1:link {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px;color:#004181; text-decoration:none;}
+.a1:hover {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px;color:#004181; text-decoration:underline;}
+.a1:visited {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px;color:#004181;}
+
+.a2{color:#004181;font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px;font-weight:bold; text-decoration:none;}
+.a2:link{color:#004181;font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px;font-weight:bold; text-decoration:none;}
+.a2:hover{color:#004181;font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px;font-weight:bold; text-decoration:underline;}
+
+.a3{color:#ff6600;font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px;font-weight:bold; text-decoration:none;}
+.a3:link{color:#ff6600;font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px;font-weight:bold; text-decoration:none;}
+.a3:hover{color:#ff6600;font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px;font-weight:bold; text-decoration:underline;}
+/* ----- FONTE ----- */
+.v10 {font-family:Verdana, Arial, Helvetica, sans-serif;font-size:10px}
+
+/* ----- CONTEÚDO ----- */
+.tab_main{border-left:5px solid #77b9dd;border-right:5px solid #77b9dd;}
+p.tit {background-color:#fff5e5;display:block;font-family: verdana,Arial, Helvetica, sans-serif;color:#186ad8;font-size: 11px; width:574px; padding:3px; border-bottom:1px solid #ff6600;margin-left:20px;}
+p.int {background-color:#ffffff;display:block;font-family: verdana,Arial, Helvetica, sans-serif;color:#186ad8;font-size: 11px; width:600px; padding:3px; border-bottom:1px solid #ff6600;}
+p.int1 {background-color:#ffffff;display:block;font-family: verdana,Arial, Helvetica, sans-serif;color:#186ad8;font-size: 11px; width:600px; padding:3px; }
+p.subtit {background-color:#ffffff;display:block;font-family: verdana,Arial, Helvetica, sans-serif;color:#186ad8;font-size: 11px; padding:3px; width:574px; margin-left:20px; text-align:justify}
+p.pag {background-color:#fff5e5;display:block;font-family: verdana,Arial, Helvetica, sans-serif;color:#186ad8;font-size: 10px; padding:3px; width:574px; border-top:1px solid #ff6600; margin-left:20px;}
+	a.pag:link {display:block;font-family: verdana,Arial, Helvetica, sans-serif;color:#186ad8;font-size: 10px;text-decoration:none;}
+	a.pag:visited {display:block;font-family: verdana,Arial, Helvetica, sans-serif;color:#186ad8;font-size: 10px;text-decoration:none;}
+	a.pag:active {display:block;font-family: verdana,Arial, Helvetica, sans-serif;color:#186ad8;font-size: 10px;text-decoration:none;}
+	a.pag:hover{display:block;font-family: verdana,Arial, Helvetica, sans-serif;color:#186ad8;font-size: 10px;text-decoration:underline;}
+.pagina {font-family: verdana,Arial, Helvetica, sans-serif;color:#186ad8;font-size: 10px;}
+p.menu_ini_esq1 {background-color:#ffffff; color:#186ad8;border-bottom:1px solid #d0e7f3; display:block; width:107px;margin:0px;}
+	a.ini_esq1:link {display:block;font-family: verdana,Arial, Helvetica, sans-serif;color:#186ad8;font-size: 10px;font-weight:bold;text-decoration:none;}
+	a.ini_esq1:visited {display:block;font-family: verdana,Arial, Helvetica, sans-serif;color:#186ad8;font-size: 10px;font-weight:bold;text-decoration:none;}
+	a.ini_esq1:active {display:block;font-family: verdana,Arial, Helvetica, sans-serif;color:#186ad8;font-size: 10px;font-weight:bold;text-decoration:none;}
+	a.ini_esq1:hover{background-color:#f1f8fc;display:block;font-family: verdana,Arial, Helvetica, sans-serif;color:#003366;font-size: 10px;font-weight:bold;text-decoration:none;}
+
+/* Geral */
+
+.normal_home {color: #ffffff; font-family:Arial, Helvetica, sans-serif; Font-Size: 11px; Line-height:11px; text-decoration: none;} 
+
+.bread {color: #666666; font-family:Arial, Helvetica, sans-serif; Font-Size: 10px; text-decoration: none;}
+
+.internas_normal {color: #666666; font-family:Arial, Helvetica, sans-serif; Font-Size: 12px; text-decoration: none;}
+.negrito {color: #666666; font-family:Arial, Helvetica, sans-serif; Font-Size: 12px; font-weight:bold;}
+.observacao {color: #666666; font-family:Arial, Helvetica, sans-serif; Font-Size: 10px; text-decoration: none;}
+
+.noticia_titulo_1 {color: #48496E; font-family:Arial; Font-Size: 14px; Line-height:18px; font-weight:bold;}
+.noticia_titulo_2 {color: #48496e; font-family:Arial, Helvetica, sans-serif; Font-Size: 11px; Line-height:16px; font-weight:bold;}
+.noticia_titulo_3 {color: #48496e; font-family:Arial, Helvetica, sans-serif; Font-Size: 12px; Line-height:16px; text-decoration: none;}
+
+.servicos_titulo_1 {color: #336666; font-family:Arial; Font-Size: 14px; Line-height:18px; font-weight:bold;}
+.servicos_titulo_2 {color: #336666; font-family:Arial, Helvetica, sans-serif; Font-Size: 11px; Line-height:16px; font-weight:bold;}
+.servicos_titulo_3 {color: #336666; font-family:Arial, Helvetica, sans-serif; Font-Size: 12px; Line-height:16px; text-decoration: none;}
+
+.morador_titulo_1 {color: #333399; font-family:Arial; Font-Size: 14px; Line-height:18px; font-weight:bold;}
+.morador_titulo_2 {color: #333399; font-family:Arial, Helvetica, sans-serif; Font-Size: 11px; Line-height:16px; font-weight:bold;}
+.morador_titulo_3 {color: #333399; font-family:Arial, Helvetica, sans-serif; Font-Size: 12px; Line-height:16px; text-decoration: none;}
+
+.empresas_titulo_1 {color: #333333; font-family:Arial; Font-Size: 14px; Line-height:18px; font-weight:bold;}
+.empresas_titulo_2 {color: #333333; font-family:Arial, Helvetica, sans-serif; Font-Size: 11px; Line-height:16px; font-weight:bold;}
+.empresas_titulo_3 {color: #333333; font-family:Arial, Helvetica, sans-serif; Font-Size: 12px; Line-height:16px; text-decoration: none;}
+
+.governo_titulo_1 {color: #000033; font-family:Arial; Font-Size: 14px; Line-height:18px; font-weight:bold;}
+.governo_titulo_2 {color: #000033; font-family:Arial, Helvetica, sans-serif; Font-Size: 11px; Line-height:16px; font-weight:bold;}
+.governo_titulo_3 {color: #000033; font-family:Arial, Helvetica, sans-serif; Font-Size: 12px; Line-height:16px; text-decoration: none;}
+
+.servidores_titulo_1 {color: #996633; font-family:Arial; Font-Size: 14px; Line-height:18px; font-weight:bold;}
+.servidores_titulo_2 {color: #996633; font-family:Arial, Helvetica, sans-serif; Font-Size: 11px; Line-height:16px; font-weight:bold;}
+.servidores_titulo_3 {color: #996633; font-family:Arial, Helvetica, sans-serif; Font-Size: 12px; Line-height:16px; text-decoration: none;}
+
+.cidade_titulo_1 {color: #999933; font-family:Arial; Font-Size: 14px; Line-height:18px; font-weight:bold;}
+.cidade_titulo_2 {color: #999933; font-family:Arial, Helvetica, sans-serif; Font-Size: 11px; Line-height:16px; font-weight:bold;}
+.cidade_titulo_3 {color: #999933; font-family:Arial, Helvetica, sans-serif; Font-Size: 12px; Line-height:16px; text-decoration: none;}
+
+.portal_titulo_1 {color: #ff6600; font-family:Arial; Font-Size: 14px; Line-height:18px; font-weight:bold;}
+.portal_titulo_2 {color: #ff6600; font-family:Arial, Helvetica, sans-serif; Font-Size: 11px; Line-height:16px; font-weight:bold;}
+.portal_titulo_3 {color: #ff6600; font-family:Arial, Helvetica, sans-serif; Font-Size: 12px; Line-height:16px; text-decoration: none;}
+
+.gabinete_titulo_1 {color: #003366; font-family:Arial; Font-Size: 14px; Line-height:18px; font-weight:bold;}
+.gabinete_titulo_2 {color: #003366; font-family:Arial, Helvetica, sans-serif; Font-Size: 11px; Line-height:16px; font-weight:bold;}
+.gabinete_titulo_3 {color: #003366; font-family:Arial, Helvetica, sans-serif; Font-Size: 12px; Line-height:16px; text-decoration: none;}
+
+
+/* Link */
+
+a:link {color: #ffffff; font-family:Arial, Helvetica, sans-serif; font-size:11px; text-decoration: none;}
+a:visited {text-decoration: none ; color: #ffffff;}
+a:active {color: #ffcc00; font-family:Arial, Helvetica, sans-serif; font-size:11px; text-decoration: none;}
+a:hover {color: #ffcc00; font-family:Arial, Helvetica, sans-serif; font-size:11px; text-decoration: none;}
+
+a.interno:link {color: #333333; font-family:Arial, Helvetica, sans-serif; font-size:12px; text-decoration: none;}
+a.interno:visited {font-family:Arial, Helvetica, sans-serif; text-decoration: none ; font-size:12px; color: #333333;}
+a.interno:active {color: #ffcc00; font-family:Arial, Helvetica, sans-serif; font-size:12px; text-decoration: none;}
+a.interno:hover {color: #ffcc00; font-family:Arial, Helvetica, sans-serif; font-size:12px; text-decoration: none;}
+
+a.bread_crumb:link {color: #666666; font-family:Arial, Helvetica, sans-serif; font-size:10px; text-decoration: none;}
+a.bread_crumb:visited {font-family:Arial, Helvetica, sans-serif; text-decoration: none ; font-size:10px; color: #666666;}
+a.bread_crumb:active {color: #ffcc00; font-family:Arial, Helvetica, sans-serif; font-size:10px; text-decoration: none;}
+a.bread_crumb:hover {color: #ffcc00; font-family:Arial, Helvetica, sans-serif; font-size:10px; text-decoration: none;}
+
+
+/* form */
+
+input   {font-family: Arial,Helvetica, geneva,sans-serif; font-size:12px; color:#666666; background-color:#ffffff;}
+select  {font-family: Arial,Helvetica, geneva,sans-serif; font-size:12px; color:#666666; background-color:#ffffff;}
+textarea {font-family: Arial,Helvetica, geneva,sans-serif; font-size:12px; color:#666666; background-color:#ffffff;}
+box    {font-family: Arial,Helvetica, geneva,sans-serif; font-size:12px; color:#666666; background-color:#ffffff; border:1px solid; border-color:#9A9A9A;}

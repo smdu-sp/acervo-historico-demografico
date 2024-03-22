@@ -1,47 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<title>Hist&oacute;rico Demogr&aacute;fico do Munic&iacute;pio de S&atilde;o Paulo</title>
-<link rel="stylesheet" type="text/css" href="estilo_padrao.css">
-<script language="JavaScript1.2" src="funcoes.js"></script>
-
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<meta name="resource-type" content="document" />
-<meta name="classification" content="Internet" />
-<meta name="description" content="Viaje pela hist&oacute;ria do Munic&iacute;pio de S&atilde;o Paulo atrav&eacute;s de anima&ccedil;&otilde;es com  mapas, fatos e fotos de &eacute;poca. Acesse tamb&eacute;m informa&ccedil;&otilde;es dos censos de  1872 at&eacute; 2000." />
-<meta name="keywords" content="mapas, tabelas, são paulo, município, georreferenciamento, geo, infolocal, educação, cultura, saúde, habitação, esportes, transportes, abastecimento, economia, meio ambiente, planejamento, inundação, mananciais, enchentes, alagamento, endereços, indicadores, estatística, informação, geografia, dados, subprefeitura, prefeitura, hidrografia, censo, ibge, orçamento, plano diretor, pde, revisão, licitações, urbanismo, história, histórico" />
-<meta name="robots" content="ALL" />
-<meta name="distribution" content="Global" />
-<meta name="rating" content="General" />
-<meta name="author" content="Guilherme Passotti, Thiago Ramon" />
-<meta name="language" content="pt-br" />
-<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-
-</head>
-
-<body onLoad="MM_preloadImages('img/botao_apresentacao_2.jpg','img/botao_equipe_2.jpg','img/botao_dados_2.jpg','img/menu-acesso-animacao-hover.jpg','img/menu-acesso-fotosmapas-hover.jpg','img/menu-acesso-tabelas-hover.jpg')">
-
-<div id="geral">
-
-<table align="center" border="0" cellpadding="0" cellspacing="0" width="780">
-
-    <tr><td><div id="header_prefeitura">
-</div></div>
-</div></td></tr>
-
-    <tr><td><table width="778" border="0" cellspacing="0" cellpadding="0">
-	<tr>
-		<td><div id="tarja_laranja"> <a href="index.php" title="Voltar para a p&aacute;gina inicial">
-		<h1 class="semestilo">Hist&oacute;rico Demogr&aacute;fico do Munic&iacute;pio de S&atilde;o Paulo</h1>
-		</a> </div></td>
-		<td align="right">
-				<a href="index.php"><img src="img/botao_apresentacao_1.jpg" name="Image1" width="103" height="35" border="0" id="Image1" title="Página Inicial" onMouseOver="MM_swapImage('Image1','','img/botao_apresentacao_2.jpg',1)" onMouseOut="MM_swapImgRestore()"></a><a href="introducao.php"><img src="img/botao_introducao_1.jpg" name="Image2" width="85" height="35" border="0" id="Image2" title="Introdu&ccedil;&atilde;o" onMouseOver="MM_swapImage('Image2','','img/botao_introducao_2.jpg',1)" onMouseOut="MM_swapImgRestore()"></a><a href="equipe.php"><img src="img/botao_equipe_1.jpg" name="Image3" width="108" height="35" border="0" id="Image3" title="Equipe T&eacute;cnica" onMouseOver="MM_swapImage('Image3','','img/botao_equipe_2.jpg',1)" onMouseOut="MM_swapImgRestore()"></a><a href="tabelas.php"><img src="img/botao_dados_1.jpg" name="Image4" width="76" height="35" border="0" id="Image4" title="Tabelas" onMouseOver="MM_swapImage('Image4','','img/botao_dados_2.jpg',1)" onMouseOut="MM_swapImgRestore()"></a></td>
-	</tr>
-</table></td></tr>
-	  
-</table><div id="conteudo">
+<?php include("cabecalho.php"); ?>
+<div id="conteudo">
   <h1>Introdu&ccedil;&atilde;o</h1>
   <p>&nbsp;</p>
   <p> Estima-se que, na &eacute;poca da funda&ccedil;&atilde;o de  S&atilde;o Paulo, em 1554, n&atilde;o mais de 100 habitantes viviam nos arredores do col&eacute;gio  erguido pelos padres jesu&iacute;tas, constituindo o n&uacute;cleo inicial da futura cidade.  Nos tr&ecirc;s s&eacute;culos seguintes, o povoado conheceu um lento crescimento, somente  alterado a partir da d&eacute;cada de 1870, quando o primeiro levantamento censit&aacute;rio  realizado no Brasil, em 1872, apontou a presen&ccedil;a de 31.385 moradores. </p>
@@ -76,11 +34,4 @@
     Entre os fatores que certamente  contribu&iacute;ram para este espraiamento da ocupa&ccedil;&atilde;o urbana e para a mudan&ccedil;a no  padr&atilde;o de crescimento demogr&aacute;fico no munic&iacute;pio, merecem destaque: a  continuidade do processo de desconcentra&ccedil;&atilde;o industrial em dire&ccedil;&atilde;o a outros  munic&iacute;pios da Regi&atilde;o Metropolitana de S&atilde;o Paulo e interior do Estado; o alto  custo de vida na capital (sobretudo no que se refere &agrave; habita&ccedil;&atilde;o); e a expans&atilde;o  de atividades terci&aacute;rias nas &aacute;reas mais consolidadas do centro urbano, substituindo  o uso residencial de muitas &aacute;reas pelo uso comercial e de servi&ccedil;os.</p>
   <p><br>
     As tr&ecirc;s caracter&iacute;sticas citadas anteriormente  &ndash; feminiliza&ccedil;&atilde;o, envelhecimento e periferiza&ccedil;&atilde;o da popula&ccedil;&atilde;o &ndash; merecem aten&ccedil;&atilde;o  especial de todos aqueles que se dedicam &agrave; formula&ccedil;&atilde;o de pol&iacute;ticas p&uacute;blicas,  pois, a m&eacute;dio e longo prazos, ter&atilde;o import&acirc;ncia decisiva na defini&ccedil;&atilde;o do perfil  e distribui&ccedil;&atilde;o dos habitantes de nossa cidade.</p>
-</div></div>
-
-<div id="assinatura">
-<div style="text-align:center"><div>
-</div>
-
-</body>
-</html>
+</div><?php include("rodape.php"); ?>
