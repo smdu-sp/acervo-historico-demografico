@@ -74,7 +74,7 @@ function write(value) {
 
 									<td>&nbsp;</td>
 									<td width="20" align="right">
-									<a href="/portalpmsp/inicio.jsp;jsessionid=62BD91FA2D3DCEF9AF760670F41D746F"><img border="0" src="Imagens/portal/btn_home.gif" width="20" height="25" alt="P�gina Inicial"></a></td>
+									<a href="/portalpmsp/inicio.jsp;jsessionid=62BD91FA2D3DCEF9AF760670F41D746F"><img border="0" src="Imagens/portal/btn_home.gif" width="20" height="25" alt="Página Inicial"></a></td>
 									<td width="20" align="right">
 									<a href="do/mapa?op=insertForm"><img border="0" src="Imagens/portal/btn_mapadosite.gif" width="20" height="25" alt="Mapa do Site"></a></td>
 									<td width="20" align="right">

@@ -6,7 +6,7 @@
 						<a href="index.php"><img src="img/logo_mapas.gif" width="100" height="63" ></a>
 					</td>
 					<td align="center" width="150">
-						<a href="index.php?texto=apresentacao" class="ini_esq1" style="padding:11px 0 12px 15px">Apresentação</a>
+						<a href="index.php?texto=apresentacao" class="ini_esq1" style="padding:11px 0 12px 15px">ApresentaÃ§Ã£o</a>
 					</td>
 
 					<td   align="center" class="ini_esq1">
@@ -17,11 +17,11 @@
 						<form method="post" name="indicadores" action="index.php?texto=corpo">
 							<div align="center" >
 								 <select name="indices" id="indices" style="background-color:#F0F5FA;color:#0066CC;width:200px;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:12px;border:none;font-weight:bold;" onChange="document.indicadores.submit()">
-									<option  value="-1"> Selecione um Índice</option>
+									<option  value="-1"> Selecione um Ã­ndice</option>
 								<?php $query_tema = "SELECT tema_cod, tema_descricao FROM tb_tema order by tema_cod";
-									$tema = mysql_query($query_tema) or die("erro na query=".$query_tema);	?>				
-									<?php while ($res_tema = mysql_fetch_array($tema)){
-												$rows = mysql_num_rows($tema);
+									$tema = mysqli_query($conexao_atlas, $query_tema) or die("erro na query=".$query_tema);	?>				
+									<?php while ($res_tema = mysqli_fetch_array($tema)){
+												$rows = mysqli_num_rows($tema);
 												if($rows >= 0) { ?>
 													<option value="<?php echo $res_tema['tema_cod']?>">
 														<?php echo ' > '.$res_tema['tema_descricao']; ?>

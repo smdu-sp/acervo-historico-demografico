@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title>Munic�pio em Mapas</title>
+		<title>Município em Mapas</title>
 		<link href="spestilo.css" rel="stylesheet" type="text/css">
 		<link href="atlas.css" rel="stylesheet" type="text/css">
 		<script language="JavaScript" src="atlas.js" type="text/javascript"></script>
@@ -12,7 +12,7 @@
 <table cellpadding="0" cellspacing="0" border="0" width="760" style="border:none;">
 			<!--Fim dos cantos do topo da tabela -->
 					<?php include 'menusup.php'; ?>
-				<!--In�cio do texto de apresenta��o-->
+				<!--Início do texto de apresentação-->
 				<?php if ($texto=='apresentacao')   include 'apresentacao.php'; ?>
 				<?php if ($texto=='equipetecnica')   include 'equipetecnica.php'; ?>
 				<?php if ($texto=='corpo')   include 'corpo.php'; ?>
@@ -20,7 +20,7 @@
 				 	 <tr><td align="center" width="100%"><br><img src="mapas/capafim1.jpg" ><br>&nbsp;</td>
 				 	 </tr>
 				 <?php } ?>
-				<!--Fim do texto de apresenta��o-->
+				<!--Fim do texto de apresentação-->
 </table>
 </div>
 		<!--Fim dos cantos do final da tabela -->

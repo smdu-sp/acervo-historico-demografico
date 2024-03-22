@@ -12,14 +12,14 @@
 					</td>
 <?php } ?>
 					<td width="148">
-						<a href="index.php?texto=apresentacao" onMouseOver="document.menu01.src=menu_01_on.src; window.status='Apresenta��o'; return true;" onMouseOut="document.menu01.src=menu_01_off.src;window.status=' '; return true;"><img src="img/menu_01_off.gif" name="menu01" border="0"></a></td>
+						<a href="index.php?texto=apresentacao" onMouseOver="document.menu01.src=menu_01_on.src; window.status='Apresentação'; return true;" onMouseOut="document.menu01.src=menu_01_off.src;window.status=' '; return true;"><img src="img/menu_01_off.gif" name="menu01" border="0"></a></td>
 
-					<td width="158"><a onMouseOver="document.menu02.src=menu_02_on.src;show('drop1'); window.status='�ndices Sociais'; return true;" onMouseOut="document.menu02.src=menu_02_off.src;wait('drop1'); window.status=' '; return true;"><img src="img/menu_02_off.gif" name="menu02" border="0"></a>
+					<td width="158"><a onMouseOver="document.menu02.src=menu_02_on.src;show('drop1'); window.status='Índices Sociais'; return true;" onMouseOut="document.menu02.src=menu_02_off.src;wait('drop1'); window.status=' '; return true;"><img src="img/menu_02_off.gif" name="menu02" border="0"></a>
 						<?php require_once('connect.php'); ?>
 						<div id="submenucontainer">
 						<?php 
 							$query_tema = "SELECT tema_cod, tema_descricao FROM tb_tema order by tema_cod ";
-							$sql_tema = mysqli_query($avalia_atlas, $query_tema) or die('Query falhou:'.$query_tema);
+							$sql_tema = mysqli_query($conexao_atlas, $query_tema) or die('Erro na conexão com o banco de dados');
 						?>			
 							<div id="submenu">
 								<div id="drop1" class="subitems1" onMouseOver="clearTimer();" onMouseOut="wait('drop1');" style="position:absolute;clear:left; ">
@@ -42,7 +42,7 @@
 							</div>
 						</div>
 				</td>
-					<td width="225"><a href="index.php?texto=equipetecnica" onMouseOver="document.menu04.src=menu_04_on.src; window.status='Equipe T�cnica'; return true;" onMouseOut="document.menu04.src=menu_04_off.src;window.status=' '; return true;"><img src="img/menu_04_off.gif" name="menu04" border="0"></a></td>
+					<td width="225"><a href="index.php?texto=equipetecnica" onMouseOver="document.menu04.src=menu_04_on.src; window.status='Equipe Técnica'; return true;" onMouseOut="document.menu04.src=menu_04_off.src;window.status=' '; return true;"><img src="img/menu_04_off.gif" name="menu04" border="0"></a></td>
 				</tr>
 			</table>
 		</td>

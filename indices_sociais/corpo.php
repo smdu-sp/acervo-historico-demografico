@@ -6,16 +6,16 @@
 	$num_rows=0;
 	if  (isset ($_REQUEST['tema_cod'])) {
 		$query_mapa = "SELECT * FROM tb_mapa where mapa_nome <> '' and tema_cod = ".$_REQUEST['tema_cod']." order by mapa_par";
-		$res_mapa = mysqli_query($avalia_atlas, $query_mapa) or die("erro na query=".$query_mapa);
+		$res_mapa = mysqli_query($conexao_atlas, $query_mapa) or die("erro na query=".$query_mapa);
 	    $num_rows = mysqli_num_rows($res_mapa);
 	    if  ($num_rows == 0 ){
-		   echo "Este �ndice ainda n�o possui mapa";
+		   echo "Este índice ainda não possui mapa";
 		} 
 		
 		$query_tema = "SELECT * from tb_tema ";
 		$query_tema.= " WHERE  tema_cod = ".$_REQUEST['tema_cod'];
 		$query_tema.= " Order by tema_cod ";
-		$sql_tema = mysqli_query($avalia_atlas, $query_tema) or die('Query falhou:'.$query_tema);
+		$sql_tema = mysqli_query($conexao_atlas, $query_tema) or die('Erro na conexão com o banco de dados');
 		$sql_tema1 = mysqli_fetch_array($sql_tema);
 	
 		$conta=1;
