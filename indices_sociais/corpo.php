@@ -6,17 +6,17 @@
 	$num_rows=0;
 	if  (isset ($_REQUEST['tema_cod'])) {
 		$query_mapa = "SELECT * FROM tb_mapa where mapa_nome <> '' and tema_cod = ".$_REQUEST['tema_cod']." order by mapa_par";
-		$res_mapa = mysql_query($query_mapa) or die("erro na query=".$query_mapa);
-	    $num_rows = mysql_num_rows($res_mapa);
+		$res_mapa = mysqli_query($avalia_atlas, $query_mapa) or die("erro na query=".$query_mapa);
+	    $num_rows = mysqli_num_rows($res_mapa);
 	    if  ($num_rows == 0 ){
-		   echo "Este índice ainda não possui mapa";
+		   echo "Este ï¿½ndice ainda nï¿½o possui mapa";
 		} 
 		
 		$query_tema = "SELECT * from tb_tema ";
 		$query_tema.= " WHERE  tema_cod = ".$_REQUEST['tema_cod'];
 		$query_tema.= " Order by tema_cod ";
-		$sql_tema = mysql_query($query_tema) or die('Query falhou:'.$query_tema);
-		$sql_tema1 = mysql_fetch_array($sql_tema);
+		$sql_tema = mysqli_query($avalia_atlas, $query_tema) or die('Query falhou:'.$query_tema);
+		$sql_tema1 = mysqli_fetch_array($sql_tema);
 	
 		$conta=1;
 		$init=TRUE;
@@ -33,7 +33,7 @@
 						  </td>			
 						</tr>
 
-		<?php while ($vemapa = mysql_fetch_array($res_mapa) )  {
+		<?php while ($vemapa = mysqli_fetch_array($res_mapa) )  {
 			if  (($conta % 3) == 1) {
 				if ($init) {
 					$init = FALSE;
@@ -55,7 +55,7 @@
 										<td width="176"><img src="img/top_map<?php echo ($conta % 2) + 1; ?>.gif"></td>
 									</tr>
 									<tr height="106">
-										<td width="176" align="center" background="img/back_map<?php echo ($conta % 2) + 1; ?>.gif"><img src="<? echo "gif/".$vemapa['mapa_nome'].".gif";?>" width="150" height="106" style="border-color: 777777"></td>
+										<td width="176" align="center" background="img/back_map<?php echo ($conta % 2) + 1; ?>.gif"><img src="<?php echo "gif/".$vemapa['mapa_nome'].".gif";?>" width="150" height="106" style="border-color: 777777"></td>
 									</tr>
 									<tr valign="top">
 										<td width="176"  height="50" style="padding:2px 3px 5px 11px;font-size:10px;font-family:verdana;color:#000066" background="img/back_map<?php echo ($conta % 2) + 1; ?>.gif"><?php echo $vemapa['mapa_titulo'];?></td>

@@ -33,7 +33,7 @@
 				 Luciane Bressanelli Casulli <br>
 				 Vania Regina Fontanesi </p>
 				<p align="center"><b> Produto Internet </b><br>
-				Thiago Ramon Gonçalves Montoya				
+				Thiago Ramon Gon&ccedil;alves Montoya				
 <!--				 Helena Pchevuzinske <br>
 				 Viviane Akamine --> </p>
 	      </td>

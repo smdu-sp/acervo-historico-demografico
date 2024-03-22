@@ -5,7 +5,6 @@
 <SCRIPT type="text/javascript" src="js/mask.js"></SCRIPT>
 <SCRIPT type="text/javascript" src="js/textarea.js"></SCRIPT>
 <SCRIPT type="text/javascript" src="js/textarea.js"></SCRIPT>
-<!-- <script type="text/javascript" src="http://www.capital.sp.gov.br/portalpmsp/infocge.js"></script> -->
 
 <script type="text/javascript">
 
@@ -75,7 +74,7 @@ function write(value) {
 
 									<td>&nbsp;</td>
 									<td width="20" align="right">
-									<a href="/portalpmsp/inicio.jsp;jsessionid=62BD91FA2D3DCEF9AF760670F41D746F"><img border="0" src="Imagens/portal/btn_home.gif" width="20" height="25" alt="Página Inicial"></a></td>
+									<a href="/portalpmsp/inicio.jsp;jsessionid=62BD91FA2D3DCEF9AF760670F41D746F"><img border="0" src="Imagens/portal/btn_home.gif" width="20" height="25" alt="Pï¿½gina Inicial"></a></td>
 									<td width="20" align="right">
 									<a href="do/mapa?op=insertForm"><img border="0" src="Imagens/portal/btn_mapadosite.gif" width="20" height="25" alt="Mapa do Site"></a></td>
 									<td width="20" align="right">
