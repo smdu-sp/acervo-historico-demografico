@@ -1,0 +1,23 @@
+Options -Indexes
+ServerSignature Off
+
+<FilesMatch "(^\.|_old\.php$|\.(ini|log|sh|inc|bak|sql|env|md|swp))$">
+    Require all denied
+</FilesMatch>
+
+<IfModule mod_headers.c>
+    Header set X-Frame-Options "SAMEORIGIN"
+    Header set X-Content-Type-Options "nosniff"
+    Header set X-XSS-Protection "1; mode=block"
+    Header unset X-Powered-By
+</IfModule>
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    
+    RewriteCond %{REQUEST_URI} (etc/passwd|boot\.ini) [NC,OR]
+    RewriteCond %{QUERY_STRING} (\.\./|\.\.) [NC,OR]
+    RewriteCond %{QUERY_STRING} (UNION%20SELECT|UNION\+SELECT|INTO%20OUTFILE|sleep\() [NC,OR]
+    RewriteCond %{QUERY_STRING} (base64_decode|eval\(|system\(|shell_exec\() [NC]
+    RewriteRule .* - [F,L]
+</IfModule>
