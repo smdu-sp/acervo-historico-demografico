@@ -2,15 +2,15 @@
 		<td height="23" align="center">
 			<table cellpadding="0" cellspacing="0" border="0" width="780">
 				<tr>
-<?php if ($texto=='mapa') { ?>
+				<?php if ($texto=='mapa') { ?>
 					<td width="60">
 						&nbsp;
 					</td>
-<?php } else { ?>
+				<?php } else { ?>
 					<td width="120">
 						<a href="index.php"><img src="img/logo_mapas.gif" width="100" height="63" ></a>
 					</td>
-<?php } ?>
+				<?php } ?>
 					<td width="148">
 						<a href="index.php?texto=apresentacao" onMouseOver="document.menu01.src=menu_01_on.src; window.status='Apresentação'; return true;" onMouseOut="document.menu01.src=menu_01_off.src;window.status=' '; return true;"><img src="img/menu_01_off.gif" name="menu01" border="0"></a></td>
 
@@ -18,13 +18,24 @@
 						<?php require_once('connect.php'); ?>
 						<div id="submenucontainer">
 						<?php 
-							$query_tema = "SELECT tema_cod, tema_descricao FROM tb_tema order by tema_cod ";
+							$query_tema  = "SELECT tema_cod, tema_descricao
+											FROM tb_tema
+											ORDER BY tema_cod ";
 							$sql_tema = mysqli_query($conexao_atlas, $query_tema) or die('Erro na conexão com o banco de dados');
 						?>			
 							<div id="submenu">
 								<div id="drop1" class="subitems1" onMouseOver="clearTimer();" onMouseOut="wait('drop1');" style="position:absolute;clear:left; ">
-									<?php	while ($row_sql1 = mysqli_fetch_assoc($sql_tema)) { ?>
-										<p class="sub-menu"><a href="index.php?texto=corpo&tema_cod=<?php echo $row_sql1['tema_cod']; ?>" class="sub-menu" onMouseOver="window.status='<?php echo $row_sql1['tema_cod']; ?> '; return true;" onMouseOut="window.status='<?php echo $row_sql1['tema_descricao']; ?> '; return true;"><nobr><img src="img/seta01.gif" align="absmiddle"><font color="#000000"><?php echo $row_sql1['tema_descricao']; ?></font></a></p>
+									<?php
+										while ($row_sql1 = mysqli_fetch_assoc($sql_tema)) {
+										// Resolve problema de XSS
+										$tema_cod_safe  = htmlspecialchars($row_sql1['tema_cod'], ENT_QUOTES, 'UTF-8');
+										$tema_desc_safe = htmlspecialchars($row_sql1['tema_descricao'], ENT_QUOTES, 'UTF-8');
+									?>
+										<p class="sub-menu">
+											<a href="index.php?texto=corpo&tema_cod=<?php echo $tema_cod_safe; ?>" class="sub-menu" onMouseOver="window.status='<?php echo $tema_cod_safe; ?> '; return true;" onMouseOut="window.status='<?php echo $tema_desc_safe; ?> '; return true;">
+												<nobr><img src="img/seta01.gif" align="absmiddle"><font color="#000000"><?php echo $tema_desc_safe; ?></font></nobr>
+											</a>
+										</p>
 									<?php } ?>
 								</div>
 							</div>
@@ -32,12 +43,12 @@
 				  </td>
 					
 				<td width="189">
-					<a href="tudo_pdf.zip" onMouseOver="document.menu03.src=menu_03_on.src;show('drop3'); window.status='Download Completo'; return true;" onMouseOut="document.menu03.src=menu_03_off.src;wait('drop3');window.status=' '; return true;"><img src="img/menu_03_off.gif" name="menu03" border="0"></a></a>
+					<a href="tudo_pdf.zip" onMouseOver="document.menu03.src=menu_03_on.src;show('drop3'); window.status='Download Completo'; return true;" onMouseOut="document.menu03.src=menu_03_off.src;wait('drop3');window.status=' '; return true;"><img src="img/menu_03_off.gif" name="menu03" border="0"></a>
 						<div id="submenucontainer">
 							<div id="submenu">
 								<div id="drop3" class="subitems1" onMouseOver="clearTimer();" onMouseOut="wait('drop3');" style="position:absolute;clear:left; ">
-										<p class="sub-menu"><a href="tudo_pdf.zip" class="sub-menu" onMouseOver="window.status='Download Completo em PDF'; return true;"><nobr><img src="img/seta01.gif" align="absmiddle"><font color="#000000">Download Completo em PDF</font></a></p>
-										<p class="sub-menu"><a href="tudo_jpeg.zip" class="sub-menu" onMouseOver="window.status='Download Completo em JPEG'; return true;"><nobr><img src="img/seta01.gif" align="absmiddle"><font color="#000000">Download Completo em JPEG</font></a></p>
+										<p class="sub-menu"><a href="tudo_pdf.zip" class="sub-menu" onMouseOver="window.status='Download Completo em PDF'; return true;"><nobr><img src="img/seta01.gif" align="absmiddle"><font color="#000000">Download Completo em PDF</font></nobr></a></p>
+										<p class="sub-menu"><a href="tudo_jpeg.zip" class="sub-menu" onMouseOver="window.status='Download Completo em JPEG'; return true;"><nobr><img src="img/seta01.gif" align="absmiddle"><font color="#000000">Download Completo em JPEG</font></nobr></a></p>
 								</div>
 							</div>
 						</div>
