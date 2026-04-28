@@ -51,8 +51,7 @@ em uso a partir de 1867</p>
   </div>
   <h3>Rua Senador  Paulo Eg&iacute;dio</h3>
   <p>&nbsp;</p>
-  <p>Fotografia tomada de ponto pr&oacute;ximo &agrave; atual Rua Senador  Paulo Eg&iacute;dio em dire&ccedil;&atilde;o &agrave; 
-  Faculdade de Direito, por volta do ano de 1874. </p>
+  <p>Fotografia tomada de ponto pr&oacute;ximo &agrave; atual Rua Senador  Paulo Eg&iacute;dio em dire&ccedil;&atilde;o &agrave; Faculdade de Direito, por volta do ano de 1874.</p>
   <p>&nbsp;</p>
   <p>&nbsp;</p>
   <p>&nbsp;</p>

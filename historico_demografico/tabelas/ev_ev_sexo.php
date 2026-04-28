@@ -5,8 +5,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 <title>Hist&oacute;rico Demogr&aacute;fico do Munic&iacute;pio de S&atilde;o Paulo</title>
 <link rel="stylesheet" type="text/css" href="../estilo_padrao.css">
-<script language="JavaScript1.2" src="../funcoes.js"></script>
-<?php include("../googleanalytics.php"); ?>
+<script src="../funcoes.js"></script>
 <style type="text/css">
 <!--
 .xl24 {mso-style-parent:style0;
@@ -562,30 +561,21 @@
 <div id="geral">
 
 <table align="center" border="0" cellpadding="0" cellspacing="0" width="780">
-
-    <tr><td><?php include("header-tabelas.php"); ?></td></tr>
-
-    <tr><td><?php include("menutopo-tabelas.php"); ?></td></tr>
-	  
+    <tr><td><?php include("../header.php"); ?></td></tr>
+    <tr><td><?php include("../menu.php"); ?></td></tr>
 </table>
 
 <div id="conteudo"> 
   <h1>Tabelas</h1>
   <p>&nbsp;</p>
-  <table x:str="x:str" border="0" cellpadding="0" cellspacing="0" width="549" style='border-collapse:
- collapse;table-layout:fixed;width:413pt'>
-    <col class="xl267" width="77" style='mso-width-source:userset;mso-width-alt:2816;
- width:58pt' />
-    <col class="xl267" width="86" style='mso-width-source:userset;mso-width-alt:3145;
- width:65pt' />
-    <col class="xl267" width="92" style='mso-width-source:userset;mso-width-alt:3364;
- width:69pt' />
-    <col class="xl267" width="102" style='mso-width-source:userset;mso-width-alt:3730;
- width:77pt' />
+  <table x:str="x:str" border="0" cellpadding="0" cellspacing="0" width="549" style='border-collapse:collapse;table-layout:fixed;width:413pt'>
+    <col class="xl267" width="77" style='mso-width-source:userset;mso-width-alt:2816;width:58pt' />
+    <col class="xl267" width="86" style='mso-width-source:userset;mso-width-alt:3145;width:65pt' />
+    <col class="xl267" width="92" style='mso-width-source:userset;mso-width-alt:3364;width:69pt' />
+    <col class="xl267" width="102" style='mso-width-source:userset;mso-width-alt:3730;width:77pt' />
     <col class="xl267" width="64" span="3" style='width:48pt' />
     <tr height="17" style='height:12.75pt'>
-      <td height="17" class="xl257" colspan="4" width="357" style='height:12.75pt;
-  mso-ignore:colspan;width:269pt'>Evolu&ccedil;&atilde;o da Esperan&ccedil;a de Vida ao Nascer por Sexo </td>
+      <td height="17" class="xl257" colspan="4" width="357" style='height:12.75pt;mso-ignore:colspan;width:269pt'>Evolu&ccedil;&atilde;o da Esperan&ccedil;a de Vida ao Nascer por Sexo </td>
       <td class="xl267" width="64" style='width:48pt'></td>
       <td class="xl267" width="64" style='width:48pt'></td>
       <td class="xl267" width="64" style='width:48pt'></td>
@@ -607,8 +597,7 @@
       <td colspan="3" class="xl267" style='mso-ignore:colspan'></td>
     </tr>
     <tr height="17" style='height:12.75pt'>
-      <td rowspan="2" height="35" class="xl362" style='border-bottom:1.0pt solid black;
-  height:26.25pt'>Anos</td>
+      <td rowspan="2" height="35" class="xl362" style='border-bottom:1.0pt solid black;height:26.25pt'>Anos</td>
       <td colspan="3" class="xl287">Esperan&ccedil;a de Vida ao Nascer</td>
       <td colspan="3" class="xl267" style='mso-ignore:colspan'></td>
     </tr>
@@ -710,7 +699,7 @@
 
 </div>
 
-<td><?php include("assinatura-tabelas.php"); ?></td>
+<td><?php include("../rodape.php"); ?></td>
 
 </body>
 </html>

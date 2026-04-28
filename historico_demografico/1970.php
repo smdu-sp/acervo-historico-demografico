@@ -14,7 +14,7 @@
   <p>&nbsp;</p>
   <div id="quadro-foto-texto">
     <p align="center"><a href="img/1970/minhocao-1970_grande.jpg" title="Clique para ampliar esta imagem"><img src="img/1970/minhocao-1970_pequeno.jpg" width="200" height="150" border="0" /></a></p>
-    <p>Elevado Costa e Silva. Fonte:  Prefeitura Municipal de S&atilde;o Paulo. <a href="img/1970/minhocao-1970_grande.jpg">Ampliar</a> </p>
+    <p>Elevado Costa e Silva. Fonte: Prefeitura Municipal de S&atilde;o Paulo. <a href="img/1970/minhocao-1970_grande.jpg">Ampliar</a> </p>
   </div>
   <h3>Minhoc&atilde;o</h3>
   <p>&nbsp;</p>
@@ -33,7 +33,7 @@
   <h3>Pra&ccedil;a  da Rep&uacute;blica</h3>
   <p>&nbsp;</p>
   <p>Nota-se  em segundo plano a Escola Normal Caetano de Campos, em seguida o Edif&iacute;cio  It&aacute;lia.
-    Fonte:  Departamento do Patrim&ocirc;nio Hist&oacute;rico do Munic&iacute;pio de S&atilde;o Paulo</p>
+    Fonte: Departamento do Patrim&ocirc;nio Hist&oacute;rico do Munic&iacute;pio de S&atilde;o Paulo</p>
   <p>&nbsp;</p>
   <p>&nbsp;</p>
   <p>&nbsp;</p>

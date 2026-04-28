@@ -4,13 +4,13 @@
             <tr>
                 <td>
                     <div id="tarja_laranja">
-                        <a href="index.php" title="Voltar para a p&aacute;gina inicial">
+                        <a href="/historico_demografico/index.php" title="Voltar para a p&aacute;gina inicial">
                             <h1 class="semestilo">Hist&oacute;rico Demogr&aacute;fico do Munic&iacute;pio de S&atilde;o Paulo</h1>
                         </a>
                     </div>
                 </td>
                 <td align="right">
-                    <?php if ($pagina_atual !== 'index.php') { ?><a href="index.php"><img src="img/botao_apresentacao_1.jpg" name="Image1" width="103" height="35" border="0" id="Image1" title="Página Inicial" onMouseOver="MM_swapImage('Image1','','img/botao_apresentacao_2.jpg',1)" onMouseOut="MM_swapImgRestore()"></a><?php } ?><a href="introducao.php"><img src="img/botao_introducao_1.jpg" name="Image2" width="85" height="35" border="0" id="Image2" title="Introdu&ccedil;&atilde;o" onMouseOver="MM_swapImage('Image2','','img/botao_introducao_2.jpg',1)" onMouseOut="MM_swapImgRestore()"></a><a href="equipe.php"><img src="img/botao_equipe_1.jpg" name="Image3" width="108" height="35" border="0" id="Image3" title="Equipe T&eacute;cnica" onMouseOver="MM_swapImage('Image3','','img/botao_equipe_2.jpg',1)" onMouseOut="MM_swapImgRestore()"></a><a href="tabelas.php"><img src="img/botao_dados_1.jpg" name="Image4" width="76" height="35" border="0" id="Image4" title="Tabelas" onMouseOver="MM_swapImage('Image4','','img/botao_dados_2.jpg',1)" onMouseOut="MM_swapImgRestore()"></a>
+                    <?php if ($pagina_atual !== 'index.php') { ?><a href="/historico_demografico/index.php"><img src="/historico_demografico/img/botao_apresentacao_1.jpg" name="Image1" width="103" height="35" border="0" id="Image1" title="Página Inicial" onMouseOver="MM_swapImage('Image1','','/historico_demografico/img/botao_apresentacao_2.jpg',1)" onMouseOut="MM_swapImgRestore()"></a><?php } ?><a href="/historico_demografico/introducao.php"><img src="/historico_demografico/img/botao_introducao_1.jpg" name="Image2" width="85" height="35" border="0" id="Image2" title="Introdu&ccedil;&atilde;o" onMouseOver="MM_swapImage('Image2','','/historico_demografico/img/botao_introducao_2.jpg',1)" onMouseOut="MM_swapImgRestore()"></a><a href="/historico_demografico/equipe.php"><img src="/historico_demografico/img/botao_equipe_1.jpg" name="Image3" width="108" height="35" border="0" id="Image3" title="Equipe T&eacute;cnica" onMouseOver="MM_swapImage('Image3','','/historico_demografico/img/botao_equipe_2.jpg',1)" onMouseOut="MM_swapImgRestore()"></a><a href="/historico_demografico/tabelas.php"><img src="/historico_demografico/img/botao_dados_1.jpg" name="Image4" width="76" height="35" border="0" id="Image4" title="Tabelas" onMouseOver="MM_swapImage('Image4','','/historico_demografico/img/botao_dados_2.jpg',1)" onMouseOut="MM_swapImgRestore()"></a>
                 </td>
             </tr>
         </table>

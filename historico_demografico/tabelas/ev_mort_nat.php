@@ -5,8 +5,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 <title>Hist&oacute;rico Demogr&aacute;fico do Munic&iacute;pio de S&atilde;o Paulo</title>
 <link rel="stylesheet" type="text/css" href="../estilo_padrao.css">
-<script language="JavaScript1.2" src="../funcoes.js"></script>
-<?php include("../googleanalytics.php"); ?>
+<script src="../funcoes.js"></script>
 <style type="text/css">
 <!--
 .xl24 {mso-style-parent:style0;
@@ -729,29 +728,21 @@
 <div id="geral">
 
 <table align="center" border="0" cellpadding="0" cellspacing="0" width="780">
-
-    <tr><td><?php include("header-tabelas.php"); ?></td></tr>
-
-    <tr><td><?php include("menutopo-tabelas.php"); ?></td></tr>
-	  
+    <tr><td><?php include("../header.php"); ?></td></tr>
+    <tr><td><?php include("../menu.php"); ?></td></tr>
 </table>
 
 <div id="conteudo"> 
   <h1>Tabelas</h1>
   <p>&nbsp;</p>
-  <table x:str="x:str" border="0" cellpadding="0" cellspacing="0" width="546" style='border-collapse:
- collapse;table-layout:fixed;width:410pt'>
+  <table x:str="x:str" border="0" cellpadding="0" cellspacing="0" width="546" style='border-collapse:collapse;table-layout:fixed;width:410pt'>
     <col class="xl2510" width="64" style='width:48pt' />
-    <col class="xl2510" width="94" style='mso-width-source:userset;mso-width-alt:3437;
- width:71pt' />
-    <col class="xl2510" width="101" style='mso-width-source:userset;mso-width-alt:3693;
- width:76pt' />
-    <col class="xl2510" width="95" style='mso-width-source:userset;mso-width-alt:3474;
- width:71pt' />
+    <col class="xl2510" width="94" style='mso-width-source:userset;mso-width-alt:3437;width:71pt' />
+    <col class="xl2510" width="101" style='mso-width-source:userset;mso-width-alt:3693;width:76pt' />
+    <col class="xl2510" width="95" style='mso-width-source:userset;mso-width-alt:3474;width:71pt' />
     <col class="xl2510" width="64" span="3" style='width:48pt' />
     <tr height="17" style='height:12.75pt'>
-      <td height="17" class="xl2413" colspan="5" width="418" style='height:12.75pt;
-  mso-ignore:colspan;width:314pt'
+      <td height="17" class="xl2413" colspan="5" width="418" style='height:12.75pt;mso-ignore:colspan;width:314pt'
   x:str="Nascidos Vivos, Nascidos Mortos e Taxa de Nati Mortalidade ">Nascidos
         Vivos, Nascidos Mortos e Taxa de Nati Mortalidade<span
   style='mso-spacerun:yes'>&nbsp;</span></td>
@@ -884,7 +875,7 @@
 
 </div>
 
-<td><?php include("assinatura-tabelas.php"); ?></td>
+<td><?php include("../rodape.php"); ?></td>
 
 </body>
 </html>

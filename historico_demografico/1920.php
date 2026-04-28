@@ -43,7 +43,7 @@
     <tr>
       <td width="231"><div id="quadro-foto-texto">
         <p align="center"><a href="img/1920/jardim-da-luz_grande.jpg" title="Clique para ampliar esta imagem"><img src="img/1920/jardim-da-luz_pequeno.jpg" alt="Esta&ccedil;&atilde;o e jardim da Luz" width="200" height="150" border="0" /></a></p>
-        <p>Esta&ccedil;&atilde;o e jardim da Luz, entre 1925 e 1930. Cr&eacute;dito:  An&ocirc;nimo. <a href="img/1920/jardim-da-luz_grande.jpg">Ampliar</a></p>
+        <p>Esta&ccedil;&atilde;o e jardim da Luz, entre 1925 e 1930. Cr&eacute;dito: An&ocirc;nimo. <a href="img/1920/jardim-da-luz_grande.jpg">Ampliar</a></p>
         <p>&nbsp;</p>
       </div></td>
       <td width="231">  <div id="quadro-foto-texto">

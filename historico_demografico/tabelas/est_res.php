@@ -5,8 +5,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 <title>Hist&oacute;rico Demogr&aacute;fico do Munic&iacute;pio de S&atilde;o Paulo</title>
 <link rel="stylesheet" type="text/css" href="../estilo_padrao.css">
-<script language="JavaScript1.2" src="../funcoes.js"></script>
-<?php include("../googleanalytics.php"); ?>
+<script src="../funcoes.js"></script>
 <style type="text/css">
 <!--
 .xl24 {mso-style-parent:style0;
@@ -338,26 +337,19 @@
 <div id="geral">
 
 <table align="center" border="0" cellpadding="0" cellspacing="0" width="780">
-
-    <tr><td><?php include("header-tabelas.php"); ?></td></tr>
-
-    <tr><td><?php include("menutopo-tabelas.php"); ?></td></tr>
-	  
+    <tr><td><?php include("../header.php"); ?></td></tr>
+    <tr><td><?php include("../menu.php"); ?></td></tr>
 </table>
 
 <div id="conteudo"> 
   <h1>Tabelas</h1>
   <p>&nbsp;</p>
-  <table x:str="x:str" border="0" cellpadding="0" cellspacing="0" width="257" style='border-collapse:
- collapse;table-layout:fixed;width:193pt'>
-    <col class="xl254" width="89" style='mso-width-source:userset;mso-width-alt:3254;
- width:67pt' />
-    <col class="xl254" width="104" style='mso-width-source:userset;mso-width-alt:3803;
- width:78pt' />
+  <table x:str="x:str" border="0" cellpadding="0" cellspacing="0" width="257" style='border-collapse:collapse;table-layout:fixed;width:193pt'>
+    <col class="xl254" width="89" style='mso-width-source:userset;mso-width-alt:3254;width:67pt' />
+    <col class="xl254" width="104" style='mso-width-source:userset;mso-width-alt:3803;width:78pt' />
     <col class="xl254" width="64" style='width:48pt' />
     <tr class="xl247" height="17" style='height:12.75pt'>
-      <td height="17" class="xl247" colspan="2" width="193" style='height:12.75pt;
-  mso-ignore:colspan;width:145pt'>Residentes Estrangeiros</td>
+      <td height="17" class="xl247" colspan="2" width="193" style='height:12.75pt;mso-ignore:colspan;width:145pt'>Residentes Estrangeiros</td>
       <td class="xl247" width="64" style='width:48pt'></td>
     </tr>
     <tr class="xl247" height="17" style='height:12.75pt'>
@@ -435,8 +427,7 @@
       <td class="xl254"></td>
     </tr>
     <tr height="17" style='height:12.75pt'>
-      <td height="17" class="xl284" colspan="3" style='height:12.75pt;mso-ignore:colspan'>Fonte:
-        IBGE, Censos Demogr&aacute;ficos</td>
+      <td height="17" class="xl284" colspan="3" style='height:12.75pt;mso-ignore:colspan'>Fonte: IBGE, Censos Demogr&aacute;ficos</td>
     </tr>
     <![if supportMisalignedColumns]>
     <tr height="0" style='display:none'>
@@ -462,7 +453,7 @@
 
 </div>
 
-<td><?php include("assinatura-tabelas.php"); ?></td>
+<td><?php include("../rodape.php"); ?></td>
 
 </body>
 </html>

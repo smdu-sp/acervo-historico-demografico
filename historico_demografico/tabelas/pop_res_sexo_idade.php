@@ -5,8 +5,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 <title>Hist&oacute;rico Demogr&aacute;fico do Munic&iacute;pio de S&atilde;o Paulo</title>
 <link rel="stylesheet" type="text/css" href="../estilo_padrao.css">
-<script language="JavaScript1.2" src="../funcoes.js"></script>
-<?php include("../googleanalytics.php"); ?>
+<script src="../funcoes.js"></script>
 <style type="text/css">
 <!--
 .xl24 {mso-style-parent:style0;
@@ -1914,35 +1913,24 @@
 <div id="geral">
 
 <table align="center" border="0" cellpadding="0" cellspacing="0" width="780">
-
-    <tr><td><?php include("header-tabelas.php"); ?></td></tr>
-
-    <tr><td><?php include("menutopo-tabelas.php"); ?></td></tr>
-	  
+    <tr><td><?php include("../header.php"); ?></td></tr>
+    <tr><td><?php include("../menu.php"); ?></td></tr>
 </table>
 
 <div id="conteudo"> 
   <h1>Tabelas</h1>
   <p>&nbsp;</p>
-  <table x:str="x:str" border="0" cellpadding="0" cellspacing="0" width="649" style='border-collapse:
- collapse;table-layout:fixed;width:489pt'>
-    <col class="xl2623" width="126" style='mso-width-source:userset;mso-width-alt:4608;
- width:95pt' />
-    <col class="xl2623" width="89" style='mso-width-source:userset;mso-width-alt:3254;
- width:67pt' />
-    <col class="xl2623" width="62" style='mso-width-source:userset;mso-width-alt:2267;
- width:47pt' />
+  <table x:str="x:str" border="0" cellpadding="0" cellspacing="0" width="649" style='border-collapse:collapse;table-layout:fixed;width:489pt'>
+    <col class="xl2623" width="126" style='mso-width-source:userset;mso-width-alt:4608;width:95pt' />
+    <col class="xl2623" width="89" style='mso-width-source:userset;mso-width-alt:3254;width:67pt' />
+    <col class="xl2623" width="62" style='mso-width-source:userset;mso-width-alt:2267;width:47pt' />
     <col class="xl2623" width="64" style='width:48pt' />
-    <col class="xl2623" width="62" style='mso-width-source:userset;mso-width-alt:2267;
- width:47pt' />
-    <col class="xl2623" width="52" style='mso-width-source:userset;mso-width-alt:1901;
- width:39pt' />
-    <col class="xl2623" width="66" style='mso-width-source:userset;mso-width-alt:2413;
- width:50pt' />
+    <col class="xl2623" width="62" style='mso-width-source:userset;mso-width-alt:2267;width:47pt' />
+    <col class="xl2623" width="52" style='mso-width-source:userset;mso-width-alt:1901;width:39pt' />
+    <col class="xl2623" width="66" style='mso-width-source:userset;mso-width-alt:2413;width:50pt' />
     <col class="xl2623" width="64" span="2" style='width:48pt' />
     <tr height="17" style='height:12.75pt'>
-      <td height="17" class="xl2424" colspan="8" width="585" style='height:12.75pt;
-  mso-ignore:colspan;width:441pt'
+      <td height="17" class="xl2424" colspan="8" width="585" style='height:12.75pt;mso-ignore:colspan;width:441pt'
   x:str="Popula&ccedil;&atilde;o Residente por Grupos de Idade e Sexo                                                      ">Popula&ccedil;&atilde;o
         Residente por Grupos de Idade e Sexo<span
   style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
@@ -2036,14 +2024,12 @@ ou mais                                                                ">60
       <td class="xl2623"></td>
     </tr>
     <tr height="17" style='height:12.75pt'>
-      <td height="17" class="xl3315" colspan="3" style='height:12.75pt;mso-ignore:colspan'>Fonte:
-        IBGE, Censo Demogr&aacute;fico 2000.</td>
+      <td height="17" class="xl3315" colspan="3" style='height:12.75pt;mso-ignore:colspan'>Fonte: IBGE, Censo Demogr&aacute;fico 2000.</td>
       <td colspan="3" class="xl2823" style='mso-ignore:colspan'></td>
       <td colspan="3" class="xl2623" style='mso-ignore:colspan'></td>
     </tr>
     <tr height="17" style='height:12.75pt'>
-      <td height="17" class="xl3315" colspan="9" style='height:12.75pt;mso-ignore:colspan'>Elabora&ccedil;&atilde;o:
-        Secretaria Municipal de Desenvolvimento Urbano/SMDU - Departamento de
+      <td height="17" class="xl3315" colspan="9" style='height:12.75pt;mso-ignore:colspan'>Elabora&ccedil;&atilde;o: Secretaria Municipal de Desenvolvimento Urbano/SMDU - Departamento de
         Estat&iacute;stica e Produ&ccedil;&atilde;o de Informa&ccedil;&atilde;o/Dipro</td>
     </tr>
     <![if supportMisalignedColumns]>
@@ -2076,7 +2062,7 @@ ou mais                                                                ">60
 
 </div>
 
-<td><?php include("assinatura-tabelas.php"); ?></td>
+<td><?php include("../rodape.php"); ?></td>
 
 </body>
 </html>

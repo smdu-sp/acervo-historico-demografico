@@ -18,7 +18,7 @@
   <p>&nbsp;</p>
   <p>Em 1891 aconteceu a  inaugura&ccedil;&atilde;o da Avenida Paulista, projetada pelo engenheiro Joaquim Eug&ecirc;nio de  Lima. Sua grandeza, na  &eacute;poca, j&aacute; apontava para sua voca&ccedil;&atilde;o de futuro s&iacute;mbolo da cidade. Possuia tr&ecirc;s  vias separadas por fileiras de magn&oacute;lias e pl&aacute;tanos e era ladeada por   imensos lotes onde foram sendo erguidos os palacetes que a caracterizaram at&eacute;  por volta de 1970. J&aacute; apedregulhada em 1894, foi beneficiada em 1903 com a  coloca&ccedil;&atilde;o de macadame em seu leito, sendo a  primeira via p&uacute;blica  asfaltada e arborizada de S&atilde;o Paulo.</p>
   <p>&nbsp;</p>
-  <p>Em 1899 a col&ocirc;nia inglesa inaugurou, na  Avenida Paulista o Col&eacute;gio Anglo-Brasileiro, cujas instala&ccedil;&otilde;es foram, a partir  de 1918, ocupadas pelo Col&eacute;gio S&atilde;o Luiz. Em 1906 foi  constru&iacute;do, no in&iacute;cio da Avenida, um sanat&oacute;rio pelas irm&atilde;s da Ordem de Santa  Catarina, mais tarde transformado no atual Hospital Santa Catarina. Data da  mesma &eacute;poca a sede do Instituto Pasteur. Fonte:  http://sampacentro.terra.com.br</p>
+  <p>Em 1899 a col&ocirc;nia inglesa inaugurou, na  Avenida Paulista o Col&eacute;gio Anglo-Brasileiro, cujas instala&ccedil;&otilde;es foram, a partir  de 1918, ocupadas pelo Col&eacute;gio S&atilde;o Luiz. Em 1906 foi  constru&iacute;do, no in&iacute;cio da Avenida, um sanat&oacute;rio pelas irm&atilde;s da Ordem de Santa  Catarina, mais tarde transformado no atual Hospital Santa Catarina. Data da  mesma &eacute;poca a sede do Instituto Pasteur. Fonte: http://sampacentro.terra.com.br</p>
   <p>&nbsp;</p>
   <div id="quadro-foto-texto">
     <p align="center"><img src="img/1900/estacao-luz-1901.jpg" alt="Primeira edifica&ccedil;&atilde;o da esta&ccedil;&atilde;o da Luz" width="200" height="150" /></p>
@@ -39,7 +39,7 @@
   <h3>Avenida S&atilde;o Jo&atilde;o </h3>
   <p>&nbsp;</p>
   <p>No  in&iacute;cio do s&eacute;culo XX, o centro era conhecido pela agitada vida cultural. Alguns  dos teatros mais famosos da &eacute;poca, como o Eldorado, o Politeama e o Casino  Paulista <em>(&agrave; direita, na foto)</em>, localizavam-se na Av. S&atilde;o Jo&atilde;o, ainda uma via estreita, mas pela qual j&aacute;   circulavam bondes el&eacute;tricos.  Ficavam ali tamb&eacute;m sofisticadas lojas de acess&oacute;rios como bengalas, sapatos e  guarda-chuvas. O alargamento da avenida foi completado apenas na d&eacute;cada de 20, na administra&ccedil;&atilde;o   do prefeito Pires do Rio. Foto tomada em dire&ccedil;&atilde;o  &agrave; atual Pra&ccedil;a Antonio Prado.<br />
-    Fonte:  Acervo Eletropaulo.</p>
+    Fonte: Acervo Eletropaulo.</p>
   <p>&nbsp;</p>
   <p>&nbsp;</p>
   <div id="quadro-foto-texto">

@@ -5,8 +5,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 <title>Hist&oacute;rico Demogr&aacute;fico do Munic&iacute;pio de S&atilde;o Paulo</title>
 <link rel="stylesheet" type="text/css" href="../estilo_padrao.css">
-<script language="JavaScript1.2" src="../funcoes.js"></script>
-<?php include("../googleanalytics.php"); ?>
+<script src="../funcoes.js"></script>
 <style type="text/css">
 <!--
 .xl24 {mso-style-parent:style0;
@@ -887,26 +886,20 @@
 <div id="geral">
 
 <table align="center" border="0" cellpadding="0" cellspacing="0" width="780">
-
-    <tr><td><?php include("header-tabelas.php"); ?></td></tr>
-
-    <tr><td><?php include("menutopo-tabelas.php"); ?></td></tr>
-	  
+    <tr><td><?php include("../header.php"); ?></td></tr>
+    <tr><td><?php include("../menu.php"); ?></td></tr>
 </table>
 
 <div id="conteudo"> 
   <h1>Tabelas</h1>
   <p>&nbsp;</p>
-  <table x:str="x:str" border="0" cellpadding="0" cellspacing="0" width="472" style='border-collapse:
- collapse;table-layout:fixed;width:355pt'>
+  <table x:str="x:str" border="0" cellpadding="0" cellspacing="0" width="472" style='border-collapse:collapse;table-layout:fixed;width:355pt'>
     <col width="145" style='mso-width-source:userset;mso-width-alt:5302;width:109pt' />
     <col width="91" style='mso-width-source:userset;mso-width-alt:3328;width:68pt' />
-    <col width="86" span="2" style='mso-width-source:userset;mso-width-alt:3145;
- width:65pt' />
+    <col width="86" span="2" style='mso-width-source:userset;mso-width-alt:3145;width:65pt' />
     <col width="64" style='width:48pt' />
     <tr height="20" style='mso-height-source:userset;height:15.0pt'>
-      <td height="20" class="xl29452" colspan="4" width="408" style='height:15.0pt;
-  width:307pt' x:str="Domic&iacute;lios  e Moradores segundo Classes de Rendimento ">Domic&iacute;lios<span
+      <td height="20" class="xl29452" colspan="4" width="408" style='height:15.0pt;width:307pt' x:str="Domic&iacute;lios  e Moradores segundo Classes de Rendimento ">Domic&iacute;lios<span
   style='mso-spacerun:yes'>&nbsp; </span>e Moradores segundo Classes de
         Rendimento<span style='mso-spacerun:yes'>&nbsp;</span></td>
       <td width="64" style='width:48pt'></td>
@@ -942,8 +935,7 @@
       <td width="64" style='width:48pt'></td>
     </tr>
     <tr height="17" style='height:12.75pt'>
-      <td colspan="2" rowspan="2" height="34" class="xl58452" style='border-bottom:.5pt solid black;
-  height:25.5pt' x:str="Classes  de Rendimento ">Classes<span
+      <td colspan="2" rowspan="2" height="34" class="xl58452" style='border-bottom:.5pt solid black;height:25.5pt' x:str="Classes  de Rendimento ">Classes<span
   style='mso-spacerun:yes'>&nbsp; </span>de Rendimento<span
   style='mso-spacerun:yes'>&nbsp;</span></td>
       <td rowspan="2" class="xl56452" style='border-bottom:.5pt solid black' x:num="x:num">1991</td>
@@ -954,8 +946,7 @@
       <td height="17"></td>
     </tr>
     <tr height="17">
-      <td rowspan="2" height="34" class="xl26452" width="145" style='border-bottom:.5pt solid black;
-  height:25.5pt;width:109pt'>Total<font class="font6452"><sup>(1)</sup></font></td>
+      <td rowspan="2" height="34" class="xl26452" width="145" style='border-bottom:.5pt solid black;height:25.5pt;width:109pt'>Total<font class="font6452"><sup>(1)</sup></font></td>
       <td class="xl36452" width="91" style='width:68pt'>Domic&iacute;lios</td>
       <td align="center" class="xl43452" x:num="2539953"><span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>2.539.953</td>
       <td class="xl44452" x:num="2985977"><span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>2.985.977 </td>
@@ -968,22 +959,17 @@
       <td></td>
     </tr>
     <tr height="17" style='height:12.75pt'>
-      <td rowspan="2" height="34" class="xl64452" width="145" style='border-bottom:.5pt solid black;
-  height:25.5pt;border-top:none;width:109pt'>Rendimento</td>
-      <td rowspan="2" class="xl45452" width="91" style='border-bottom:.5pt solid black;
-  border-top:none;width:68pt'>M&eacute;dio<font class="font6452"><sup>(2)</sup></font></td>
-      <td rowspan="2" class="xl47452" style='border-bottom:.5pt solid black;border-top:
-  none' x:num="258946.1">258.946,10</td>
-      <td rowspan="2" class="xl49452" style='border-bottom:.5pt solid black;border-top:
-  none' x:num="1479.69"><span style='mso-spacerun:yes'>&nbsp; </span>1 479,69 </td>
+      <td rowspan="2" height="34" class="xl64452" width="145" style='border-bottom:.5pt solid black;height:25.5pt;border-top:none;width:109pt'>Rendimento</td>
+      <td rowspan="2" class="xl45452" width="91" style='border-bottom:.5pt solid black;border-top:none;width:68pt'>M&eacute;dio<font class="font6452"><sup>(2)</sup></font></td>
+      <td rowspan="2" class="xl47452" style='border-bottom:.5pt solid black;border-top: none' x:num="258946.1">258.946,10</td>
+      <td rowspan="2" class="xl49452" style='border-bottom:.5pt solid black;border-top: none' x:num="1479.69"><span style='mso-spacerun:yes'>&nbsp; </span>1 479,69 </td>
       <td></td>
     </tr>
     <tr height="17" style='height:12.75pt'>
       <td height="17" class="xl15452" style='height:12.75pt'></td>
     </tr>
     <tr height="17" style='height:12.75pt'>
-      <td rowspan="2" height="34" class="xl53452" width="145" style='border-bottom:.5pt solid black;
-  height:25.5pt;border-top:none;width:109pt'>At&eacute;<span
+      <td rowspan="2" height="34" class="xl53452" width="145" style='border-bottom:.5pt solid black;height:25.5pt;border-top:none;width:109pt'>At&eacute;<span
   style='mso-spacerun:yes'>&nbsp; </span>1 s.m<font class="font6452"><sup>.(3)</sup></font></td>
       <td class="xl27452" width="91" style='border-top:none;width:68pt'>Domic&iacute;lios</td>
       <td align="center" class="xl34452" style='border-top:none' x:num="153894"><span
@@ -999,8 +985,7 @@
       <td></td>
     </tr>
     <tr height="17" style='height:12.75pt'>
-      <td rowspan="2" height="34" class="xl53452" width="145" style='border-bottom:.5pt solid black;
-  height:25.5pt;border-top:none;width:109pt'>Mais de 1 at&eacute; 2 s. m.</td>
+      <td rowspan="2" height="34" class="xl53452" width="145" style='border-bottom:.5pt solid black;height:25.5pt;border-top:none;width:109pt'>Mais de 1 at&eacute; 2 s. m.</td>
       <td class="xl27452" width="91" style='border-top:none;width:68pt'>Domic&iacute;lios</td>
       <td align="center" class="xl34452" style='border-top:none' x:num="409815"><span
   style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>409.815</td>
@@ -1015,8 +1000,7 @@
       <td></td>
     </tr>
     <tr height="17" style='height:12.75pt'>
-      <td rowspan="2" height="34" class="xl53452" width="145" style='border-bottom:.5pt solid black;
-  height:25.5pt;border-top:none;width:109pt'
+      <td rowspan="2" height="34" class="xl53452" width="145" style='border-bottom:.5pt solid black;height:25.5pt;border-top:none;width:109pt'
   x:str="Mais de
 2 a 3 s.m.                                                                 ">Mais
         de<br />
@@ -1035,8 +1019,7 @@
       <td></td>
     </tr>
     <tr height="17" style='height:12.75pt'>
-      <td rowspan="2" height="34" class="xl53452" width="145" style='border-bottom:.5pt solid black;
-  height:25.5pt;border-top:none;width:109pt'
+      <td rowspan="2" height="34" class="xl53452" width="145" style='border-bottom:.5pt solid black;height:25.5pt;border-top:none;width:109pt'
   x:str="Mais de
 3 a 5 s.m.                                                                 ">Mais
         de<br />
@@ -1056,8 +1039,7 @@
       <td></td>
     </tr>
     <tr height="17" style='height:12.75pt'>
-      <td rowspan="2" height="34" class="xl53452" width="145" style='border-bottom:.5pt solid black;
-  height:25.5pt;border-top:none;width:109pt'
+      <td rowspan="2" height="34" class="xl53452" width="145" style='border-bottom:.5pt solid black;height:25.5pt;border-top:none;width:109pt'
   x:str="Mais de
 5 a 10 s.m.                                                                ">Mais
         de<br />
@@ -1076,8 +1058,7 @@
       <td></td>
     </tr>
     <tr height="17" style='height:12.75pt'>
-      <td rowspan="2" height="34" class="xl53452" width="145" style='border-bottom:.5pt solid black;
-  height:25.5pt;border-top:none;width:109pt'
+      <td rowspan="2" height="34" class="xl53452" width="145" style='border-bottom:.5pt solid black;height:25.5pt;border-top:none;width:109pt'
   x:str="Mais de
 10 a 15 s.m.                                                                ">Mais
         de<br />
@@ -1097,8 +1078,7 @@
       <td></td>
     </tr>
     <tr height="17" style='height:12.75pt'>
-      <td rowspan="2" height="34" class="xl53452" width="145" style='border-bottom:.5pt solid black;
-  height:25.5pt;border-top:none;width:109pt'
+      <td rowspan="2" height="34" class="xl53452" width="145" style='border-bottom:.5pt solid black;height:25.5pt;border-top:none;width:109pt'
   x:str="Mais de
 15 a 20 s.m.                                                                 ">Mais
         de<br />
@@ -1117,16 +1097,13 @@
       <td></td>
     </tr>
     <tr height="17" style='height:12.75pt'>
-      <td rowspan="2" height="34" class="xl53452" width="145" style='border-bottom:.5pt solid black;
-  height:25.5pt;border-top:none;width:109pt'
+      <td rowspan="2" height="34" class="xl53452" width="145" style='border-bottom:.5pt solid black;height:25.5pt;border-top:none;width:109pt'
   x:str="Mais de
 20 a 30 s.m.                                                                 ">Mais
         de<br />
         20 a 30 s.m. </td>
-      <td rowspan="2" class="xl27452" width="91" style='border-bottom:.5pt solid black;
-  border-top:none;width:68pt'>Domic&iacute;lios</td>
-      <td rowspan="2" class="xl61452" style='border-bottom:.5pt solid black;border-top:
-  none' x:num="179250"><span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>179.250</td>
+      <td rowspan="2" class="xl27452" width="91" style='border-bottom:.5pt solid black;border-top:none;width:68pt'>Domic&iacute;lios</td>
+      <td rowspan="2" class="xl61452" style='border-bottom:.5pt solid black;border-top: none' x:num="179250"><span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>179.250</td>
       <td class="xl39452" style='border-top:none;border-left:none' x:num="103542"><span
   style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>103.542 </td>
       <td></td>
@@ -1137,16 +1114,13 @@
       <td></td>
     </tr>
     <tr height="17" style='height:12.75pt'>
-      <td rowspan="2" height="34" class="xl53452" width="145" style='border-bottom:.5pt solid black;
-  height:25.5pt;border-top:none;width:109pt'
+      <td rowspan="2" height="34" class="xl53452" width="145" style='border-bottom:.5pt solid black;height:25.5pt;border-top:none;width:109pt'
   x:str="Mais de
 30 s.m.                                                                     ">Mais
         de<br />
         30 s.m. </td>
-      <td rowspan="2" class="xl27452" width="91" style='border-bottom:.5pt solid black;
-  border-top:none;width:68pt'>Moradores</td>
-      <td rowspan="2" class="xl61452" style='border-bottom:.5pt solid black;border-top:
-  none' x:num="678022"><span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>678.022 </td>
+      <td rowspan="2" class="xl27452" width="91" style='border-bottom:.5pt solid black;border-top:none;width:68pt'>Moradores</td>
+      <td rowspan="2" class="xl61452" style='border-bottom:.5pt solid black;border-top: none' x:num="678022"><span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>678.022 </td>
       <td class="xl39452" style='border-top:none;border-left:none' x:num="178445"><span
   style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>178.445 </td>
       <td></td>
@@ -1157,10 +1131,8 @@
       <td></td>
     </tr>
     <tr height="17" style='mso-height-source:userset;height:12.75pt'>
-      <td rowspan="2" height="34" class="xl51452" style='border-bottom:.5pt solid black;
-  height:25.5pt;border-top:none'>Sem Rendimento <font class="font6452"><sup>(4)</sup></font></td>
-      <td class="xl27452" width="91" style='border-top:none;border-left:none;
-  width:68pt'>Domic&iacute;lios</td>
+      <td rowspan="2" height="34" class="xl51452" style='border-bottom:.5pt solid black;height:25.5pt;border-top:none'>Sem Rendimento <font class="font6452"><sup>(4)</sup></font></td>
+      <td class="xl27452" width="91" style='border-top:none;border-left:none;width:68pt'>Domic&iacute;lios</td>
       <td align="center" class="xl34452" style='border-top:none' x:num="123638"><span
   style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>123.638 </td>
       <td class="xl39452" style='border-top:none' x:num="311318"><span
@@ -1168,18 +1140,15 @@
       <td></td>
     </tr>
     <tr height="17" style='mso-height-source:userset;height:12.75pt'>
-      <td height="17" class="xl28452" width="91" style='height:12.75pt;border-left:none;
-  width:68pt'>Moradores</td>
+      <td height="17" class="xl28452" width="91" style='height:12.75pt;border-left:none;width:68pt'>Moradores</td>
       <td align="center" class="xl35452" x:num="483413"><span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>483.413</td>
       <td class="xl40452" x:num="1156800"><span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>1.156.800 </td>
       <td></td>
     </tr>
     <tr height="17" style='height:12.75pt'>
-      <td rowspan="2" height="34" class="xl51452" style='border-bottom:.5pt solid black;
-  height:25.5pt;border-top:none'>Sem Declara&ccedil;&atilde;o<br />
+      <td rowspan="2" height="34" class="xl51452" style='border-bottom:.5pt solid black;height:25.5pt;border-top:none'>Sem Declara&ccedil;&atilde;o<br />
       <br /></td>
-      <td class="xl27452" width="91" style='border-top:none;border-left:none;
-  width:68pt'>Domic&iacute;lios<br /></td>
+      <td class="xl27452" width="91" style='border-top:none;border-left:none;width:68pt'>Domic&iacute;lios<br /></td>
       <td align="center" class="xl34452" style='border-top:none' x:num="37987">37.987<br /></td>
       <td class="xl41452" style='border-top:none' x:str="-"><span
   style='mso-spacerun:yes'>&nbsp;</span>-<span style='mso-spacerun:yes'>&nbsp;<br />
@@ -1187,8 +1156,7 @@
       <td></td>
     </tr>
     <tr height="17" style='height:12.75pt'>
-      <td height="17" class="xl28452" width="91" style='height:12.75pt;border-left:none;
-  width:68pt'>Moradores</td>
+      <td height="17" class="xl28452" width="91" style='height:12.75pt;border-left:none;width:68pt'>Moradores</td>
       <td align="center" class="xl35452" x:num="124193">24.193</td>
       <td class="xl42452" x:str="-"><span style='mso-spacerun:yes'>&nbsp;</span>-<span
   style='mso-spacerun:yes'>&nbsp;</span></td>
@@ -1202,8 +1170,7 @@
       <td></td>
     </tr>
     <tr height="13" style='mso-height-source:userset;height:9.95pt'>
-      <td height="13" class="xl32452" colspan="5" style='height:9.95pt'>Elabora&ccedil;&atilde;o:
-        Secretaria Municipal de Planejamento Urbano/Sempla - Departamento de
+      <td height="13" class="xl32452" colspan="5" style='height:9.95pt'>Elabora&ccedil;&atilde;o: Secretaria Municipal de Planejamento Urbano/Sempla - Departamento de
         Informa&ccedil;&otilde;es/Deinfo</td>
     </tr>
     <tr height="13" style='mso-height-source:userset;height:9.95pt'>
@@ -1262,7 +1229,7 @@
 
 </div>
 
-<td><?php include("assinatura-tabelas.php"); ?></td>
+<td><?php include("../rodape.php"); ?></td>
 
 </body>
 </html>

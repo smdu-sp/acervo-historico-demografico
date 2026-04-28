@@ -5,8 +5,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 <title>Hist&oacute;rico Demogr&aacute;fico do Munic&iacute;pio de S&atilde;o Paulo</title>
 <link rel="stylesheet" type="text/css" href="../estilo_padrao.css">
-<script language="JavaScript1.2" src="../funcoes.js"></script>
-<?php include("../googleanalytics.php"); ?>
+<script src="../funcoes.js"></script>
 <style type="text/css">
 <!--
 .xl24 {mso-style-parent:style0;
@@ -643,29 +642,21 @@
 <div id="geral">
 
 <table align="center" border="0" cellpadding="0" cellspacing="0" width="780">
-
-    <tr><td><?php include("header-tabelas.php"); ?></td></tr>
-
-    <tr><td><?php include("menutopo-tabelas.php"); ?></td></tr>
-	  
+    <tr><td><?php include("../header.php"); ?></td></tr>
+    <tr><td><?php include("../menu.php"); ?></td></tr>
 </table>
 
 <div id="conteudo"> 
   <h1>Tabelas</h1>
   <p>&nbsp;</p>
-  <table x:str="x:str" border="0" cellpadding="0" cellspacing="0" width="688" style='border-collapse:
- collapse;table-layout:fixed;width:516pt'>
+  <table x:str="x:str" border="0" cellpadding="0" cellspacing="0" width="688" style='border-collapse:collapse;table-layout:fixed;width:516pt'>
     <col class="xl258" width="64" style='width:48pt' />
-    <col class="xl258" width="109" style='mso-width-source:userset;mso-width-alt:3986;
- width:82pt' />
-    <col class="xl258" width="104" style='mso-width-source:userset;mso-width-alt:3803;
- width:78pt' />
-    <col class="xl258" width="91" style='mso-width-source:userset;mso-width-alt:3328;
- width:68pt' />
+    <col class="xl258" width="109" style='mso-width-source:userset;mso-width-alt:3986;width:82pt' />
+    <col class="xl258" width="104" style='mso-width-source:userset;mso-width-alt:3803;width:78pt' />
+    <col class="xl258" width="91" style='mso-width-source:userset;mso-width-alt:3328;width:68pt' />
     <col class="xl258" width="64" span="5" style='width:48pt' />
     <tr height="17" style='height:12.75pt'>
-      <td height="17" class="xl2411" colspan="4" width="368" style='height:12.75pt;
-  mso-ignore:colspan;width:276pt'>Popula&ccedil;&atilde;o de 15 anos e mais, Total e
+      <td height="17" class="xl2411" colspan="4" width="368" style='height:12.75pt;mso-ignore:colspan;width:276pt'>Popula&ccedil;&atilde;o de 15 anos e mais, Total e
         Alfabetizada</td>
       <td class="xl258" width="64" style='width:48pt'></td>
       <td class="xl258" width="64" style='width:48pt'></td>
@@ -691,8 +682,7 @@
       <td colspan="5" class="xl258" style='mso-ignore:colspan'></td>
     </tr>
     <tr height="17" style='height:12.75pt'>
-      <td rowspan="2" height="37" class="xl353" style='border-bottom:1.0pt solid black;
-  height:27.75pt'>Anos</td>
+      <td rowspan="2" height="37" class="xl353" style='border-bottom:1.0pt solid black;height:27.75pt'>Anos</td>
       <td colspan="2" class="xl298">Popula&ccedil;&atilde;o de 15 anos e mais</td>
       <td class="xl298" x:str="&Iacute;ndice de ">&Iacute;ndice de<span
   style='mso-spacerun:yes'>&nbsp;</span></td>
@@ -762,8 +752,7 @@
       <td colspan="5" class="xl258" style='mso-ignore:colspan'></td>
     </tr>
     <tr height="17" style='height:12.75pt'>
-      <td height="17" class="xl278" colspan="3" style='height:12.75pt;mso-ignore:colspan'>Fonte:
-        IBGE, Censos Demogr&aacute;ficos</td>
+      <td height="17" class="xl278" colspan="3" style='height:12.75pt;mso-ignore:colspan'>Fonte: IBGE, Censos Demogr&aacute;ficos</td>
       <td colspan="6" class="xl258" style='mso-ignore:colspan'></td>
     </tr>
     <tr height="19" style='height:14.25pt'>
@@ -785,8 +774,7 @@
     </tr>
     <tr height="17" style='height:12.75pt'>
       <td height="17" class="xl278" colspan="6" style='height:12.75pt;mso-ignore:colspan'
-  x:str="OBS: Exclui a popula&ccedil;&atilde;o de idade ignorada e os sem declara&ccedil;&atilde;o de instru&ccedil;&atilde;o ">OBS:
-        Exclui a popula&ccedil;&atilde;o de idade ignorada e os sem declara&ccedil;&atilde;o de instru&ccedil;&atilde;o<span
+  x:str="OBS: Exclui a popula&ccedil;&atilde;o de idade ignorada e os sem declara&ccedil;&atilde;o de instru&ccedil;&atilde;o ">OBS: Exclui a popula&ccedil;&atilde;o de idade ignorada e os sem declara&ccedil;&atilde;o de instru&ccedil;&atilde;o<span
   style='mso-spacerun:yes'>&nbsp;</span></td>
       <td colspan="3" class="xl258" style='mso-ignore:colspan'></td>
     </tr>
@@ -820,7 +808,7 @@
 
 </div>
 
-<td><?php include("assinatura-tabelas.php"); ?></td>
+<td><?php include("../rodape.php"); ?></td>
 
 </body>
 </html>

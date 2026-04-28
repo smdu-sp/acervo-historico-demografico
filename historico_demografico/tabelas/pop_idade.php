@@ -5,8 +5,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 <title>Hist&oacute;rico Demogr&aacute;fico do Munic&iacute;pio de S&atilde;o Paulo</title>
 <link rel="stylesheet" type="text/css" href="../estilo_padrao.css">
-<script language="JavaScript1.2" src="../funcoes.js"></script>
-<?php include("../googleanalytics.php"); ?>
+<script src="../funcoes.js"></script>
 <style type="text/css">
 <!--
 .xl24 {mso-style-parent:style0;
@@ -1388,32 +1387,23 @@
 <div id="geral">
 
 <table align="center" border="0" cellpadding="0" cellspacing="0" width="780">
-
-    <tr><td><?php include("header-tabelas.php"); ?></td></tr>
-
-    <tr><td><?php include("menutopo-tabelas.php"); ?></td></tr>
-	  
+    <tr><td><?php include("../header.php"); ?></td></tr>
+    <tr><td><?php include("../menu.php"); ?></td></tr>
 </table>
 
 <div id="conteudo"> 
   <h1>Tabelas</h1>
   <p>&nbsp;</p>
-  <table x:str="x:str" border="0" cellpadding="0" cellspacing="0" width="698" style='border-collapse:
- collapse;table-layout:fixed;width:524pt'>
+  <table x:str="x:str" border="0" cellpadding="0" cellspacing="0" width="698" style='border-collapse:collapse;table-layout:fixed;width:524pt'>
     <col class="xl2618" width="64" style='width:48pt' />
-    <col class="xl2618" width="73" style='mso-width-source:userset;mso-width-alt:2669;
- width:55pt' />
-    <col class="xl2618" width="71" style='mso-width-source:userset;mso-width-alt:2596;
- width:53pt' />
+    <col class="xl2618" width="73" style='mso-width-source:userset;mso-width-alt:2669;width:55pt' />
+    <col class="xl2618" width="71" style='mso-width-source:userset;mso-width-alt:2596;width:53pt' />
     <col class="xl2618" width="64" span="3" style='width:48pt' />
-    <col class="xl2618" width="65" style='mso-width-source:userset;mso-width-alt:2377;
- width:49pt' />
-    <col class="xl2618" width="105" style='mso-width-source:userset;mso-width-alt:3840;
- width:79pt' />
+    <col class="xl2618" width="65" style='mso-width-source:userset;mso-width-alt:2377;width:49pt' />
+    <col class="xl2618" width="105" style='mso-width-source:userset;mso-width-alt:3840;width:79pt' />
     <col class="xl2618" width="64" span="2" style='width:48pt' />
     <tr height="17" style='height:12.75pt'>
-      <td height="17" class="xl2518" colspan="3" width="208" style='height:12.75pt;
-  mso-ignore:colspan;width:156pt'>Popula&ccedil;&atilde;o por Faixa Et&aacute;ria</td>
+      <td height="17" class="xl2518" colspan="3" width="208" style='height:12.75pt;mso-ignore:colspan;width:156pt'>Popula&ccedil;&atilde;o por Faixa Et&aacute;ria</td>
       <td class="xl2518" width="64" style='width:48pt'></td>
       <td class="xl2518" width="64" style='width:48pt'></td>
       <td class="xl2518" width="64" style='width:48pt'></td>
@@ -1444,8 +1434,7 @@
       <td colspan="2" class="xl2818" style='mso-ignore:colspan'></td>
     </tr>
     <tr height="17" style='height:12.75pt'>
-      <td rowspan="2" height="37" class="xl413" style='border-bottom:1.0pt solid black;
-  height:27.75pt;border-top:none'>Anos</td>
+      <td rowspan="2" height="37" class="xl413" style='border-bottom:1.0pt solid black;height:27.75pt;border-top:none'>Anos</td>
       <td colspan="5" class="xl2918">Popula&ccedil;&atilde;o</td>
       <td class="xl2918" style='border-top:none'>&nbsp;</td>
       <td class="xl2918" style='border-top:none'>&Iacute;ndice<span style='mso-spacerun:yes'>&nbsp; </span>de</td>
@@ -1595,8 +1584,7 @@
       <td colspan="2" class="xl2818" style='mso-ignore:colspan'></td>
     </tr>
     <tr height="17" style='height:12.75pt'>
-      <td height="17" class="xl392" colspan="4" style='height:12.75pt;mso-ignore:colspan'>Fonte:
-        IBGE, Censos Demogr&aacute;ficos</td>
+      <td height="17" class="xl392" colspan="4" style='height:12.75pt;mso-ignore:colspan'>Fonte: IBGE, Censos Demogr&aacute;ficos</td>
       <td colspan="6" class="xl2818" style='mso-ignore:colspan'></td>
     </tr>
     <tr height="17" style='height:12.75pt'>
@@ -1646,7 +1634,7 @@
 
 </div>
 
-<td><?php include("assinatura-tabelas.php"); ?></td>
+<td><?php include("../rodape.php"); ?></td>
 
 </body>
 </html>

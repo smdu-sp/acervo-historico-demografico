@@ -5,8 +5,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 <title>Hist&oacute;rico Demogr&aacute;fico do Munic&iacute;pio de S&atilde;o Paulo</title>
 <link rel="stylesheet" type="text/css" href="../estilo_padrao.css">
-<script language="JavaScript1.2" src="../funcoes.js"></script>
-<?php include("../googleanalytics.php"); ?>
+<script src="../funcoes.js"></script>
 <style type="text/css">
 <!--
 .xl24 {mso-style-parent:style0;
@@ -1677,28 +1676,21 @@
 <div id="geral">
 
 <table align="center" border="0" cellpadding="0" cellspacing="0" width="780">
-
-    <tr><td><?php include("header-tabelas.php"); ?></td></tr>
-
-    <tr><td><?php include("menutopo-tabelas.php"); ?></td></tr>
-	  
+    <tr><td><?php include("../header.php"); ?></td></tr>
+    <tr><td><?php include("../menu.php"); ?></td></tr>
 </table>
 
 <div id="conteudo"> 
   <h1>Tabelas</h1>
   <p>&nbsp;</p>
-  <table x:str="x:str" border="0" cellpadding="0" cellspacing="0" width="474" style='border-collapse:
- collapse;table-layout:fixed;width:356pt'>
-    <col class="xl2821" width="146" style='mso-width-source:userset;mso-width-alt:5339;
- width:110pt' />
+  <table x:str="x:str" border="0" cellpadding="0" cellspacing="0" width="474" style='border-collapse:collapse;table-layout:fixed;width:356pt'>
+    <col class="xl2821" width="146" style='mso-width-source:userset;mso-width-alt:5339;width:110pt' />
     <col class="xl2821" width="64" style='width:48pt' />
     <col class="xl51" width="64" span="2" style='width:48pt' />
     <col class="xl2821" width="64" style='width:48pt' />
-    <col class="xl2921" width="72" style='mso-width-source:userset;mso-width-alt:2633;
- width:54pt' />
+    <col class="xl2921" width="72" style='mso-width-source:userset;mso-width-alt:2633;width:54pt' />
     <tr class="xl2422" height="17" style='height:12.75pt'>
-      <td height="17" class="xl2422" colspan="5" width="402" style='height:12.75pt;
-  mso-ignore:colspan;width:302pt'>Residentes N&atilde;o-naturais segundo Local de
+      <td height="17" class="xl2422" colspan="5" width="402" style='height:12.75pt;mso-ignore:colspan;width:302pt'>Residentes N&atilde;o-naturais segundo Local de
         Nascimento</td>
     </tr>
     <tr height="17" style='height:12.75pt'>
@@ -1801,8 +1793,7 @@
       <td align="center" class="xl47" x:num="195641"><span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span>195.641 </td>
     </tr>
     <tr height="17" style='height:12.75pt'>
-      <td height="17" class="xl48" colspan="2" style='height:12.75pt;mso-ignore:colspan'>Fonte:
-        IBGE, Censos Demogr&aacute;ficos</td>
+      <td height="17" class="xl48" colspan="2" style='height:12.75pt;mso-ignore:colspan'>Fonte: IBGE, Censos Demogr&aacute;ficos</td>
       <td colspan="2" class="xl49" style='mso-ignore:colspan'></td>
       <td class="xl48"></td>
     </tr>
@@ -1920,8 +1911,7 @@
       <td class="xl3218" align="right" x:num="4.8782719774828651">4,9</td>
     </tr>
     <tr height="17" style='height:12.75pt'>
-      <td height="17" class="xl48" colspan="2" style='height:12.75pt;mso-ignore:colspan'>Fonte:
-        IBGE, Censos Demogr&aacute;ficos</td>
+      <td height="17" class="xl48" colspan="2" style='height:12.75pt;mso-ignore:colspan'>Fonte: IBGE, Censos Demogr&aacute;ficos</td>
       <td colspan="2" class="xl51" style='mso-ignore:colspan'></td>
       <td class="xl2821"></td>
     </tr>
@@ -1951,7 +1941,7 @@
 
 </div>
 
-<td><?php include("assinatura-tabelas.php"); ?></td>
+<td><?php include("../rodape.php"); ?></td>
 
 </body>
 </html>

@@ -5,8 +5,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 <title>Hist&oacute;rico Demogr&aacute;fico do Munic&iacute;pio de S&atilde;o Paulo</title>
 <link rel="stylesheet" type="text/css" href="../estilo_padrao.css">
-<script language="JavaScript1.2" src="../funcoes.js"></script>
-<?php include("../googleanalytics.php"); ?>
+<script src="../funcoes.js"></script>
 <style type="text/css">
 <!--
 .xl24 {mso-style-parent:style0;
@@ -243,22 +242,16 @@
 <div id="geral">
 
 <table align="center" border="0" cellpadding="0" cellspacing="0" width="780">
-
-    <tr><td><?php include("header-tabelas.php"); ?></td></tr>
-
-    <tr><td><?php include("menutopo-tabelas.php"); ?></td></tr>
-	  
+    <tr><td><?php include("../header.php"); ?></td></tr>
+    <tr><td><?php include("../menu.php"); ?></td></tr>
 </table>
 
 <div id="conteudo"> 
   <h1>Tabelas</h1>
   <p>&nbsp;</p>
-  <table x:str="x:str" border="0" cellpadding="0" cellspacing="0" width="729" style='border-collapse:
- collapse;table-layout:fixed;width:564pt'>
-    <col class="xl272" width="501" style='mso-width-source:userset;mso-width-alt:18322;
- width:376pt' />
-    <col class="xl262" width="62" span="4" style='mso-width-source:userset;mso-width-alt:
- 2267;width:47pt' />
+  <table x:str="x:str" border="0" cellpadding="0" cellspacing="0" width="729" style='border-collapse:collapse;table-layout:fixed;width:564pt'>
+    <col class="xl272" width="501" style='mso-width-source:userset;mso-width-alt:18322;width:376pt' />
+    <col class="xl262" width="62" span="4" style='mso-width-source:userset;mso-width-alt:2267;width:47pt' />
     <tr height="17" style='height:12.75pt'>
       <td height="17" class="xl245" width="521" style='height:12.75pt;width:376pt'>Estrangeiros
         por Principais Pa&iacute;ses de Origem</td>
@@ -819,7 +812,7 @@
 
 </div>
 
-<td><?php include("assinatura-tabelas.php"); ?></td>
+<td><?php include("../rodape.php"); ?></td>
 
 </body>
 </html>

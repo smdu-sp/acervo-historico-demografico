@@ -5,7 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
     <title>Hist&oacute;rico Demogr&aacute;fico do Munic&iacute;pio de S&atilde;o Paulo</title>
     <link rel="stylesheet" type="text/css" href="estilo_padrao.css">
-    <script language="JavaScript1.2" src="funcoes.js"></script>
+    <script src="funcoes.js"></script>
     <?php
     // Executar o código do Ruffle apenas na página animacao.php
     $pagina_atual = basename($_SERVER['PHP_SELF']);

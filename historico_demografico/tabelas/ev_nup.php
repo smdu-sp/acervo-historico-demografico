@@ -5,8 +5,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 <title>Hist&oacute;rico Demogr&aacute;fico do Munic&iacute;pio de S&atilde;o Paulo</title>
 <link rel="stylesheet" type="text/css" href="../estilo_padrao.css">
-<script language="JavaScript1.2" src="../funcoes.js"></script>
-<?php include("../googleanalytics.php"); ?>
+<script src="../funcoes.js"></script>
 <style type="text/css">
 <!--
 .xl24 {mso-style-parent:style0;
@@ -840,27 +839,20 @@
 <div id="geral">
 
 <table align="center" border="0" cellpadding="0" cellspacing="0" width="780">
-
-    <tr><td><?php include("header-tabelas.php"); ?></td></tr>
-
-    <tr><td><?php include("menutopo-tabelas.php"); ?></td></tr>
-	  
+    <tr><td><?php include("../header.php"); ?></td></tr>
+    <tr><td><?php include("../menu.php"); ?></td></tr>
 </table>
 
 <div id="conteudo"> 
   <h1>Tabelas</h1>
   <p>&nbsp;</p>
-  <table x:str="x:str" border="0" cellpadding="0" cellspacing="0" width="426" style='border-collapse:
- collapse;table-layout:fixed;width:320pt'>
+  <table x:str="x:str" border="0" cellpadding="0" cellspacing="0" width="426" style='border-collapse:collapse;table-layout:fixed;width:320pt'>
     <col class="xl2512" width="64" style='width:48pt' />
-    <col class="xl2512" width="82" style='mso-width-source:userset;mso-width-alt:2998;
- width:62pt' />
-    <col class="xl2512" width="88" style='mso-width-source:userset;mso-width-alt:3218;
- width:66pt' />
+    <col class="xl2512" width="82" style='mso-width-source:userset;mso-width-alt:2998;width:62pt' />
+    <col class="xl2512" width="88" style='mso-width-source:userset;mso-width-alt:3218;width:66pt' />
     <col class="xl2512" width="64" span="3" style='width:48pt' />
     <tr height="17" style='height:12.75pt'>
-      <td height="17" class="xl2415" colspan="4" width="298" style='height:12.75pt;
-  mso-ignore:colspan;width:224pt'>Casamentos e Taxa de Nupcialidade</td>
+      <td height="17" class="xl2415" colspan="4" width="298" style='height:12.75pt;mso-ignore:colspan;width:224pt'>Casamentos e Taxa de Nupcialidade</td>
       <td class="xl2512" width="64" style='width:48pt'></td>
       <td class="xl2512" width="64" style='width:48pt'></td>
     </tr>
@@ -977,7 +969,7 @@
 
 </div>
 
-<td><?php include("assinatura-tabelas.php"); ?></td>
+<td><?php include("../rodape.php"); ?></td>
 
 </body>
 </html>

@@ -5,8 +5,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 <title>Hist&oacute;rico Demogr&aacute;fico do Munic&iacute;pio de S&atilde;o Paulo</title>
 <link rel="stylesheet" type="text/css" href="../estilo_padrao.css">
-<script language="JavaScript1.2" src="../funcoes.js"></script>
-<?php include("../googleanalytics.php"); ?>
+<script src="../funcoes.js"></script>
 <style type="text/css">
 <!--
 .xl24 {mso-style-parent:style0;
@@ -1013,29 +1012,21 @@
 <div id="geral">
 
 <table align="center" border="0" cellpadding="0" cellspacing="0" width="780">
-
-    <tr><td><?php include("header-tabelas.php"); ?></td></tr>
-
-    <tr><td><?php include("menutopo-tabelas.php"); ?></td></tr>
-	  
+    <tr><td><?php include("../header.php"); ?></td></tr>
+    <tr><td><?php include("../menu.php"); ?></td></tr>
 </table>
 
 <div id="conteudo"> 
   <h1>Tabelas</h1>
   <p>&nbsp;</p>
-  <table x:str="x:str" border="0" cellpadding="0" cellspacing="0" width="442" style='border-collapse:
- collapse;table-layout:fixed;width:332pt'>
+  <table x:str="x:str" border="0" cellpadding="0" cellspacing="0" width="442" style='border-collapse:collapse;table-layout:fixed;width:332pt'>
     <col class="xl2514" width="64" style='width:48pt' />
-    <col class="xl2514" width="69" style='mso-width-source:userset;mso-width-alt:2523;
- width:52pt' />
-    <col class="xl2514" width="49" style='mso-width-source:userset;mso-width-alt:1792;
- width:37pt' />
-    <col class="xl2514" width="68" style='mso-width-source:userset;mso-width-alt:2486;
- width:51pt' />
+    <col class="xl2514" width="69" style='mso-width-source:userset;mso-width-alt:2523;width:52pt' />
+    <col class="xl2514" width="49" style='mso-width-source:userset;mso-width-alt:1792;width:37pt' />
+    <col class="xl2514" width="68" style='mso-width-source:userset;mso-width-alt:2486;width:51pt' />
     <col class="xl2514" width="64" span="3" style='width:48pt' />
     <tr height="17" style='height:12.75pt'>
-      <td height="17" class="xl2416" colspan="3" width="182" style='height:12.75pt;
-  mso-ignore:colspan;width:137pt'>Densidade Demogr&aacute;fica</td>
+      <td height="17" class="xl2416" colspan="3" width="182" style='height:12.75pt;mso-ignore:colspan;width:137pt'>Densidade Demogr&aacute;fica</td>
       <td class="xl2416" width="68" style='width:51pt'></td>
       <td class="xl2514" width="64" style='width:48pt'></td>
       <td class="xl2514" width="64" style='width:48pt'></td>
@@ -1061,8 +1052,7 @@
       <td colspan="3" class="xl2514" style='mso-ignore:colspan'></td>
     </tr>
     <tr height="17" style='height:12.75pt'>
-      <td rowspan="2" height="37" class="xl337" style='border-bottom:1.0pt solid black;
-  height:27.75pt;border-top:none'>Anos</td>
+      <td rowspan="2" height="37" class="xl337" style='border-bottom:1.0pt solid black;height:27.75pt;border-top:none'>Anos</td>
       <td class="xl3014" style='border-top:none'>Popula&ccedil;&atilde;o</td>
       <td class="xl3014" style='border-top:none'>&Aacute;rea</td>
       <td class="xl3014" style='border-top:none'>Densidade</td>
@@ -1124,16 +1114,14 @@
       <td colspan="3" class="xl2514" style='mso-ignore:colspan'></td>
     </tr>
     <tr height="17" style='height:12.75pt'>
-      <td height="17" class="xl2814" colspan="5" style='height:12.75pt;mso-ignore:colspan'>Fonte:
-        IBGE, Censos Demogr&aacute;ficos e EMPLASA</td>
+      <td height="17" class="xl2814" colspan="5" style='height:12.75pt;mso-ignore:colspan'>Fonte: IBGE, Censos Demogr&aacute;ficos e EMPLASA</td>
       <td colspan="2" class="xl2514" style='mso-ignore:colspan'></td>
     </tr>
         <tr height="17" style='height:12.75pt'>
       <td height="17" class="xl2814" colspan="7" style='height:12.75pt;mso-ignore:colspan'>Elabora&ccedil;&atilde;o: SMDU / Dipro</td>
     </tr>
     <tr height="17" style='height:12.75pt'>
-      <td height="17" class="xl2814" colspan="7" style='height:12.75pt;mso-ignore:colspan'>OBS:
-        Somente a partir de 1964 o IGC passou a calcular a &aacute;rea do MSP</td>
+      <td height="17" class="xl2814" colspan="7" style='height:12.75pt;mso-ignore:colspan'>OBS: Somente a partir de 1964 o IGC passou a calcular a &aacute;rea do MSP</td>
     </tr>
     <![if supportMisalignedColumns]>
     <tr height="0" style='display:none'>
@@ -1163,7 +1151,7 @@
 
 </div>
 
-<td><?php include("assinatura-tabelas.php"); ?></td>
+<td><?php include("../rodape.php"); ?></td>
 
 </body>
 </html>
